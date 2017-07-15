@@ -10,6 +10,16 @@ googleAnalytics = ""
 [taxonomies]
 category = "categories"
 
+[languages]
+
+[languages.de]
+weight = 1
+title = "Urlaub in Hirschberg - natürlich im Sauerland"
+
+[languages.en]
+weight = 2
+title = "Vacation in Hirschberg"
+
 [menu]
 
 # Main menu
@@ -31,6 +41,12 @@ category = "categories"
     url  = "/freizeit/"
     weight = 3
     identifier = "freizeit"
+
+[[menu.main]]
+    name = "Unterkünfte"
+    url  = "/unterkuenfte/"
+    weight = 4
+    identifier = "unterkuenfte"
 
 [params]
     viewMorePostLink = ""
@@ -56,13 +72,13 @@ category = "categories"
     # Enable the contact form by entering your Formspree.io email
     email = "webmaster@hirschberg-touristik.de"
 
-    about_us = "<p>Vereinsring Hirscherg e.V..</p>"
-    copyright = "Copyright (c) 2017, Vereinsring Hirschberg e.V."
+    about_us = "Vereinsring Hirschberg e.V."
+    copyright = "Copyright &copy; 2017, Vereinsring Hirschberg e.V."
 
     # Format dates with Go's time formatting
     date_format = "2. Januar 2006"
 
-    logo = "img/logo.png"
+    logo = "images/Logo_Hirschberg_300.png"
     address = """<p><strong>Vereinsring Hirschberg e.V.</strong>
         <br>1. Vorsitzender:
         <br>Dieter Bräutigam

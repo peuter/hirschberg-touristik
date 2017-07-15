@@ -10,15 +10,10 @@
     </ul>
 
     <ul class="copyright">
-        <li>&copy; Vereinsring Hirschberg e.V.</li><li>Design: <a href="7">HTML5 UP</a></li>
+        {{ if isset .Site.Params "copyright" }}
+        <li>{{ .Site.Params.copyright | safeHTML }}</li>
+        {{ end }}
+        <li>{{ i18n "templateBy" }} <a href="https://html5up.net/twenty">HTML5 UP</a>.
+            {{ i18n "portedBy" }} <a href="https://www.to-bra.de">to-bra IT Solutions</a></li>
     </ul>
-
-    {{ if isset .Site.Params "copyright" }}
-    <p class="pull-left">{{ .Site.Params.copyright | safeHTML }}</p>
-    {{ end }}
-    <p class="pull-right">
-        {{ i18n "templateBy" }} <a href="https://html5up.net/twenty">HTML5 UP</a>.
-        {{ i18n "portedBy" }} <a href="https://github.com/peuter/twenty">Tobias Bräutigam</a>
-    </p>
-
 </footer>
