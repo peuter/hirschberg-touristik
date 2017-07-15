@@ -5,7 +5,7 @@
         {{ range .Site.Menus.main }}
         {{ $is := $page.IsMenuCurrent "main" . }}
         {{ $has := $page.HasMenuCurrent "main" . }}
-        <li class="{{ if .HasChildren }}submenu{{ end }}{{ if or ($is) ($has) }}current{{ end }}">
+        <li class="{{ if .HasChildren }}submenu{{ end }}{{ if or ($is) ($has) }} current{{ end }}">
             {{ if .HasChildren }}
             <a href="{{ .URL }}">{{ .Name }}</a>
             <ul>

@@ -17,6 +17,9 @@
     <article id="main">
         <section class="wrapper style3 container special">
             <div class="row">
+                <header>
+                    <h2>Gestalten Sie Ihre Freizeit aktiv!</h2>
+                </header>
                 {{ $paginator := .Paginate (where .Data.Pages "Type" "freizeit") }}
                 {{ range $paginator.Pages.ByWeight }}
                 <div class="6u 12u(narrower)">

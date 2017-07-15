@@ -7,6 +7,8 @@ keywords = ["Radfahren", "biken", "radeln", "Freizeit", "Wald", "Natur"]
 icon = "fa-bicycle"
 teaser = "Hirschberg bietet aufgrund seiner Lage mitten im Arnsberger Wald, zahlreiche Wandermöglichkeiten. Neben der Sauerland Waldroute gibt es 192km gekennzeichnete Wanderwege rund um Hirschberg."
 categories = ["freizeit"]
+categories_weight = 2
+weight = 2
 [menu.main]
     parent = "freizeit"
 +++

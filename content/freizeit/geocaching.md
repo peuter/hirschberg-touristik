@@ -7,6 +7,8 @@ keywords = ["Geocaching", "cache", "Freizeit", "Wald", "Natur"]
 icon = "fa-map"
 teaser = "Geocaching ist eine moderne Form der Schnitzeljagd und stellt eine Art elektronische Schatzsuche dar. In Hirschberg und Umgebung sind mehrere Caches versteckt"
 categories = ["freizeit"]
+categories_weight = 3
+weight = 3
 [menu.main]
     parent = "freizeit"
 +++
