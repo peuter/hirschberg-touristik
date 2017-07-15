@@ -1,0 +1,78 @@
+languageCode = "de-de"
+title = "Urlaub in Hirschberg - natürlich im Sauerland"
+baseurl = "http://hirschberg-touristik.de/"
+theme = "twenty"
+# Site language. Available translations in the theme's `/i18n` directory.
+defaultContentLanguage = "de"
+# Enable Google Analytics by entering your tracking code
+googleAnalytics = ""
+
+[taxonomies]
+category = "categories"
+
+[menu]
+
+# Main menu
+
+[[menu.main]]
+    name = "Willkommen"
+    url  = "/"
+    weight = 1
+    identifier = "home"
+
+[[menu.main]]
+    name = "Sehenswürdigkeiten"
+    url  = "/sehenswuerdig/"
+    weight = 2
+    identifier = "poi"
+
+[[menu.main]]
+    name = "Freizeitaktivitäten"
+    url  = "/freizeit/"
+    weight = 3
+    identifier = "freizeit"
+
+[params]
+    viewMorePostLink = ""
+    author = "Vereinsring Hirschberg e.V."
+    defaultKeywords = ["Urlaub", "Hirschberg", "Sauerland"]
+    defaultDescription = "Urlaub in Hirschberg - natürlich im Sauerland"
+
+    # Google Maps API key (if not set will default to not passing a key.)
+    googleMapsApiKey = ""
+
+    # Since this template is static, the contact form uses www.formspree.io as a
+    # proxy. The form makes a POST request to their servers to send the actual
+    # email. Visitors can send up to a 1000 emails each month for free.
+    #
+    # What you need to do for the setup?
+    #
+    # - set your email address under 'email' below
+    # - upload the generated site to your server
+    # - send a dummy email yourself to confirm your account
+    # - click the confirm link in the email from www.formspree.io
+    # - you're done. Happy mailing!
+    #
+    # Enable the contact form by entering your Formspree.io email
+    email = "webmaster@hirschberg-touristik.de"
+
+    about_us = "<p>Vereinsring Hirscherg e.V..</p>"
+    copyright = "Copyright (c) 2017, Vereinsring Hirschberg e.V."
+
+    # Format dates with Go's time formatting
+    date_format = "2. Januar 2006"
+
+    logo = "img/logo.png"
+    address = """<p><strong>Vereinsring Hirschberg e.V.</strong>
+        <br>1. Vorsitzender:
+        <br>Dieter Bräutigam
+        <br>Burgstraße 31
+        <br>59581 Warstein-Hirschberg
+      </p>
+      """
+    latitude = "-12.043333"
+    longitude = "-77.028333"
+
+[params.topbar]
+    enable = true
+    text = """Hirschberg - <span class="slogan">natürlich im Sauerland</span>"""

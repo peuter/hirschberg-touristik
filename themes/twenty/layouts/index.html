@@ -1,0 +1,71 @@
+<!DOCTYPE HTML>
+<!--
+	Twenty by HTML5 UP - modified and ported to hugo by Tobias Bräutigam
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html lang="{{ .Site.LanguageCode }}">
+    {{ partial "header.html" . }}
+</head>
+<body class="index">
+<div id="page-wrapper">
+
+    <!-- Header -->
+    <header id="header" class="alt">
+        {{ partial "top.html" . }}
+
+        {{ partial "nav.html" . }}
+    </header>
+
+    {{ partial "banner.html" . }}
+
+    <!-- Main -->
+    <article id="main">
+
+        <header class="special container">
+            <img src="images/Logo_Hirschberg_300.png" />
+            <h2>Hirschberg im Sauerland</h2>
+            <p>
+                Der staatlich anerkannte Erholungsort Hirschberg liegt malerisch eingebettet
+                in den Naturpark Arnsberger Wald, das größte zusammenhängende Waldgebiet
+                Nordrhein-Westfalens. Hirschberg, ehemaliger Jagdsitz der Kölner Kurfürsten,
+                liegt 450 m über NN. Das Ortsbild wird geprägt von zahlreichen denkmalgeschützen
+                Fachwerkhäusern. Mit seiner Lage direkt an der Sauerland-Waldroute lädt der Ort
+                nicht nur Wanderer zum Verweilen und Betrachten der zahlreichen Sehenswürdigkeiten ein.
+            </p>
+        </header>
+
+        <section class="wrapper style1 container special">
+            <div class="row">
+                {{ range .Site.Taxonomies.categories.freizeit }}
+                    {{ .Render "teaser"}}
+                {{ end }}
+            </div>
+        </section>
+
+    </article>
+
+    <!-- CTA -->
+    <!--<section id="cta">-->
+
+        <!--<header>-->
+            <!--<h2>&lt;!&ndash;[&ndash;&gt;Ready to do <strong>something</strong>?&lt;!&ndash;]&ndash;&gt;</h2>-->
+            <!--<p>Proin a ullamcorper elit, et sagittis turpis integer ut fermentum.</p>-->
+        <!--</header>-->
+        <!--<footer>-->
+            <!--<ul class="buttons">-->
+                <!--<li><a href="#" class="button special">&lt;!&ndash;[&ndash;&gt;Take My Money&lt;!&ndash;]&ndash;&gt;</a></li>-->
+                <!--<li><a href="#" class="button">&lt;!&ndash;[&ndash;&gt;LOL Wut&lt;!&ndash;]&ndash;&gt;</a></li>-->
+            <!--</ul>-->
+        <!--</footer>-->
+
+    <!--</section>-->
+
+    {{ partial "footer.html" . }}
+
+</div>
+
+{{ partial "scripts.html" . }}
+
+</body>
+</html>

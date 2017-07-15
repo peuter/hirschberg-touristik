@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+<!--
+	Twenty by HTML5 UP - ported to hugo by Tobias Bräutigam
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html lang="{{ .Site.LanguageCode }}">
+{{ partial "header.html" . }}
+</head>
+<body class="index">
+<div id="page-wrapper">
+
+    <!-- Header -->
+    <header id="header" class="alt">
+        {{ partial "top.html" . }}
+
+        {{ partial "nav.html" . }}
+    </header>
+
+    <!-- Main -->
+    <article id="main">
+
+        <header class="special container">
+            <h3>Entschuldigung - diese Seite existiert nicht</h3>
+            <h4 class="text-muted">Error 404 - Seite nicht gefunden</h4>
+
+            <p class="buttons"><a href="index.html" class="btn btn-template-main"><i class="fa fa-home"></i>Zurück zur Startseite</a>
+            </p>
+        </header>
+    </article>
+
+    {{ partial "footer.html" . }}
+
+</div>
+
+{{ partial "scripts.html" . }}
+
+</body>
+</html>

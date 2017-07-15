@@ -1,0 +1,19 @@
+<div class="4u 12u(narrower)">
+
+    <section>
+        {{if .Page.Params.Icon}}
+        <span class="icon featured {{ .Page.Params.Icon }}"></span>
+        {{end}}
+        <header>
+            <h3><!--[--><a href='{{ .Page.RelPermalink }}'>{{ .Page.Title }}</a><!--]--></h3>
+        </header>
+        <p>
+            {{ if .Page.Params.teaser }}
+            {{.Page.Params.teaser}}
+            {{else}}
+            {{ .Page.Summary }}
+            {{end}}
+        </p>
+    </section>
+
+</div>
