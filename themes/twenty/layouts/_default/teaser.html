@@ -2,7 +2,7 @@
 
     <section>
         {{if .Page.Params.Icon}}
-        <span class="icon featured {{ .Page.Params.Icon }}"></span>
+        <a href='{{ .Page.RelPermalink }}' style="color: inherit;"><span class="icon featured {{ .Page.Params.Icon }}"></span></a>
         {{end}}
         <header>
             <h3><!--[--><a href='{{ .Page.RelPermalink }}'>{{ .Page.Title }}</a><!--]--></h3>
@@ -13,6 +13,8 @@
             {{else}}
             {{ .Page.Summary }}
             {{end}}
+            <br/>
+            <a href='{{ .Page.RelPermalink }}'>weiter...</a>
         </p>
     </section>
 

@@ -1869,30 +1869,30 @@
 					background: #829bc9;
 				}
 
-			.icon.circle.fa-google-plus {
+			.icon.circle.fa-rss {
 				background: #db6b67;
 				color: #fff;
 			}
 
-				.icon.circle.fa-google-plus:hover {
+				.icon.circle.fa-rss:hover {
 					background: #df7b77;
 				}
 
-			.icon.circle.fa-github {
+			.icon.circle.fa-calendar {
 				background: #dcad8b;
 				color: #fff;
 			}
 
-				.icon.circle.fa-github:hover {
+				.icon.circle.fa-calendar:hover {
 					background: #e1b89b;
 				}
 
-			.icon.circle.fa-dribbble {
+			.icon.circle.hbg {
 				background: #da83ae;
 				color: #fff;
 			}
 
-				.icon.circle.fa-dribbble:hover {
+				.icon.circle.hbg:hover {
 					background: #df93b8;
 				}
 
@@ -3207,3 +3207,14 @@
 			}
 
 	}
+
+a > span.icon.featured {
+	cursor: pointer;
+}
+
+#header img {
+	vertical-align: middle;
+}
+#header.reveal.alt img {
+	display: none;
+}

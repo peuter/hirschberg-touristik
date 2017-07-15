@@ -1,3 +1,6 @@
 {{ if .Site.Params.topbar.enable }}
-<h1 id="logo"><a href="{{ .Site.BaseURL }}">{{ .Site.Params.topbar.text | safeHTML }}</a></h1>
+<h1 id="logo">
+    <img src="{{ .Site.BaseURL }}images/Logo_Hirschberg_300.png" width="40" />
+    <a href="{{ .Site.BaseURL }}">{{ .Site.Params.topbar.text | safeHTML }}</a>
+</h1>
 {{ end }}
