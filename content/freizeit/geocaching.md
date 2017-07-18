@@ -1,9 +1,9 @@
 +++
 date = "2017-07-15T09:56:38+02:00"
 title = "Geocaching"
-draft = true
 description = "Informationen über Geocaching in Hirschberg"
 keywords = ["Geocaching", "cache", "Freizeit", "Wald", "Natur"]
+banner = "images/luftbild-seitlich.jpg"
 icon = "fa-map"
 teaser = "Geocaching ist eine moderne Form der Schnitzeljagd und stellt eine Art elektronische Schatzsuche dar. In Hirschberg und Umgebung sind mehrere Caches versteckt"
 categories = ["freizeit"]

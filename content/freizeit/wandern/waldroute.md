@@ -1,7 +1,6 @@
 +++
 title = "Waldroute"
 date = 2017-07-15T15:05:47+02:00
-draft = true
 categories = ["wandern"]
 [menu.main]
     parent = "Wandern"

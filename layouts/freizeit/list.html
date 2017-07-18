@@ -22,39 +22,28 @@
                 </header>
                 {{ $paginator := .Paginate (where .Data.Pages "Type" "freizeit") }}
                 {{ range $paginator.Pages.ByWeight }}
-                <div class="6u 12u(narrower)">
-                    <section>
-                        <a href="{{ .Permalink }}" class="image featured">
-                            {{ if .Params.banner }}
-                            <img src="{{ .Site.BaseURL}}{{ .Params.banner }}" alt="" />
-                            {{ else }}
-                            <img src="{{ .Site.BaseURL}}images/banner.jpg" alt="">
-                            {{ end }}
-                        </a>
-                        <header>
-                            <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
-                        </header>
-                        <p class="intro">{{ .Summary }}</p>
-                        <p class="read-more"><a href="{{ .Permalink }}" class="btn btn-template-main">{{ i18n "continueReading" }}</a>
-                    </section>
-                </div>
+                    {{ if in .Params.Categories "freizeit" }}
+                    <div class="6u 12u(narrower)">
+                        <section>
+                            <a href="{{ .Permalink }}" class="image featured">
+                                {{ if .Params.banner }}
+                                <img src="{{ .Site.BaseURL}}{{ .Params.banner }}" alt="" />
+                                {{ else }}
+                                <img src="{{ .Site.BaseURL}}images/banner.jpg" alt="">
+                                {{ end }}
+                            </a>
+                            <header>
+                                <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+                            </header>
+                            <p class="intro">{{ .Params.teaser }}</p>
+                            <p class="read-more"><a href="{{ .Permalink }}" class="btn btn-template-main">{{ i18n "continueReading" }}...</a>
+                        </section>
+                    </div>
+                    {{ end }}
                 {{ end }}
             </div>
         </section>
 
-        <ul class="pager">
-            {{ if .Paginator.HasPrev }}
-            <li class="previous"><a href="{{ .Site.BaseURL }}{{ .Paginator.Prev.URL }}">&larr; {{ i18n "newer" }}</a></li>
-            {{ else }}
-            <li class="previous disabled"><a href="#">&larr; {{ i18n "newer" }}</a></li>
-            {{ end }}
-
-            {{ if .Paginator.HasNext }}
-            <li class="next"><a href="{{ .Site.BaseURL }}{{ .Paginator.Next.URL }}">{{ i18n "older" }} &rarr;</a></li>
-            {{ else }}
-            <li class="next disabled"><a href="#">{{ i18n "older" }} &rarr;</a></li>
-            {{ end }}
-        </ul>
     </article>
 
     {{ partial "footer.html" . }}

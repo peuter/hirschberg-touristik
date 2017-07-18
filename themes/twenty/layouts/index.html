@@ -35,10 +35,22 @@
             </p>
         </header>
 
+        <section class="wrapper style2 container special-alt">
+            <div class="row 50%">
+                <div class="8u 12u(narrower)">
+                </div>
+            </div>
+        </section>
+
         <section class="wrapper style1 container special">
+            <h2>Freizeitaktivitäten</h2>
             <div class="row">
-                {{ range .Site.Taxonomies.categories.freizeit }}
-                    {{ .Render "teaser"}}
+                {{ range $index, $page := .Site.Taxonomies.categories.freizeit }}
+                    {{ if and (gt $index 0) (eq (mod $index 3) 0)}}
+            </div>
+            <div class="row">
+                    {{end}}
+                    {{ $page.Render "teaser"}}
                 {{ end }}
             </div>
         </section>
