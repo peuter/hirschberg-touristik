@@ -17,9 +17,11 @@
     <article id="main">
         <section class="wrapper style3 container special">
             <div class="row">
-                <header>
-                    <h2>Gestalten Sie Ihre Freizeit aktiv!</h2>
-                </header>
+                {{ .Content }}
+            </div>
+        </section>
+        <section class="wrapper style3 container special">
+            <div class="row">
                 {{ $paginator := .Paginate (where .Data.Pages "Type" "freizeit") }}
                 {{ range $paginator.Pages.ByWeight }}
                     {{ if in .Params.Categories "freizeit" }}
@@ -47,7 +49,7 @@
         <section class="wrapper style4 container">
             <div class="row">
                 {{ range .Site.Data.freizeit.sonstige.entries }}
-                <div class="5u 12u(narrower)">
+                <div class="4u 12u(narrower)">
                     <section>
                         <header>
                             <h3>{{ .title }}</a></h3>
@@ -55,19 +57,20 @@
                         <p class="intro">{{ .description }}</p>
                     </section>
                 </div>
-                <div class="2u 12u(narrower)">
-                    {{ if .banner }}
-                    <img src="{{ .Site.BaseURL}}{{ .banner }}" alt="" />
-                    {{ else }}
-                    <span class="icon featured {{ .icon }}"></span>
-                    {{ end }}
+                <div class="1u 12u(narrower)">
                 </div>
-                <div class="5u 12u(narrower)">
+                <div class="7u 12u(narrower)">
                     <section>
                         {{ range $index, $entry := .links }}
                         {{ if gt $index 0}}
                         <hr class="sep"/>
                         {{end}}
+                        <h4>{{ .title }}</h4>
+                        {{ if .logo }}
+                        <img style="float: left; width: 100px; padding: 5px; margin: 10px;" src="{{ $.Site.BaseURL }}{{ .logo }}" />
+                        {{ else if .icon }}
+                        <span style="float: left; width: 100px; margin: 10px" class="icon featured {{ .icon }}"></span>
+                        {{ end }}
                         <p>
                             {{.description}}<br/>
                             <a href="{{.link}}">{{.link}}</a>
