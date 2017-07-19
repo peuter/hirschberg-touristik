@@ -29,7 +29,7 @@
                         <section>
                             <a href="{{ .Permalink }}" class="image featured">
                                 {{ if .Params.banner }}
-                                <img src="{{ .Site.BaseURL}}{{ .Params.banner }}" alt="" />
+                                <img src="{{ .Site.BaseURL}}{{ .Params.banner }}" alt="{{.Title}}" />
                                 {{ else }}
                                 <img src="{{ .Site.BaseURL}}images/banner.jpg" alt="">
                                 {{ end }}
@@ -48,7 +48,8 @@
 
         <section class="wrapper style4 container">
             <div class="row">
-                {{ range .Site.Data.freizeit.sonstige.entries }}
+                {{ $data := index .Site.Data .Site.Language.Lang }}
+                {{ range $data.freizeit.sonstige.entries }}
                 <div class="4u 12u(narrower)">
                     <section>
                         <header>
@@ -67,7 +68,7 @@
                         {{end}}
                         <h4>{{ .title }}</h4>
                         {{ if .logo }}
-                        <img style="float: left; width: 100px; padding: 5px; margin: 10px;" src="{{ $.Site.BaseURL }}{{ .logo }}" />
+                        <img style="float: left; width: 100px; padding: 5px; margin: 10px;" src="{{ $.Site.BaseURL }}{{ .logo }}" alt="{{ i18n "Logo" }} {{ .title }}"/>
                         {{ else if .icon }}
                         <span style="float: left; width: 100px; margin: 10px" class="icon featured {{ .icon }}"></span>
                         {{ end }}

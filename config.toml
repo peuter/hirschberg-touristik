@@ -48,6 +48,31 @@ title = "Vacation in Hirschberg"
     weight = 4
     identifier = "unterkuenfte"
 
+[[languages.en.menu.main]]
+    name = "Welcome"
+    url  = "/"
+    weight = 1
+    identifier = "home"
+
+[[languages.en.menu.main]]
+    name = "Attractions"
+    url  = "/sehenswuerdig/"
+    weight = 2
+    identifier = "poi"
+
+[[languages.en.menu.main]]
+    name = "Leisure activities"
+    url  = "/en/freizeit/"
+    weight = 3
+    identifier = "freizeit"
+    slug = "leisure"
+
+[[languages.en.menu.main]]
+    name = "Accommodations"
+    url  = "/unterkuenfte/"
+    weight = 4
+    identifier = "unterkuenfte"
+
 [params]
     viewMorePostLink = ""
     author = "Vereinsring Hirschberg e.V."

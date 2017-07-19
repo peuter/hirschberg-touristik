@@ -69,3 +69,18 @@
 
 - id: publishedOn
   translation: "on"
+
+- id: "Hirschberg im Sauerland"
+  translation: "Hirschberg in the Sauerland"
+
+- id: "Urlaub in Hirschberg"
+  translation: "Vacation in Hirschberg"
+
+- id: "Logo"
+  translation: "logo"
+
+- id: "Entspannen und auftanken im Naturpark Arnsberger Wald,"
+  translation: "Relax and recharge in the nature park Arnsberger Wald,"
+
+- id: "der grünen Lunge NRWs."
+  translation: "the green lung of North Rhine-Westfalia."

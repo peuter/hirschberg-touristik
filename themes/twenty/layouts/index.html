@@ -23,8 +23,8 @@
     <article id="main">
 
         <header class="special container">
-            <img src="images/Logo_Hirschberg_300.png" />
-            <h2>Hirschberg im Sauerland</h2>
+            <img src="{{ .Site.BaseURL }}images/Logo_Hirschberg_300.png" />
+            <h2>{{ i18n "Hirschberg im Sauerland" }}</h2>
             <p>
                 Der staatlich anerkannte Erholungsort Hirschberg liegt malerisch eingebettet
                 in den Naturpark Arnsberger Wald, das größte zusammenhängende Waldgebiet
@@ -43,7 +43,7 @@
         </section>
 
         <section class="wrapper style1 container special">
-            <h2>Freizeitaktivitäten</h2>
+            <h2>{{ i18n "Freizeitaktivitäten" }}</h2>
             <div class="row">
                 {{ range $index, $page := first 3 (.Site.Taxonomies.categories.freizeit) }}
                     {{ if and (gt $index 0) (eq (mod $index 3) 0)}}

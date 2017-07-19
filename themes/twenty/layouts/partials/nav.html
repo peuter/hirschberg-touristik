@@ -14,7 +14,7 @@
                 {{ end }}
             </ul>
             {{ else }}
-            <a href="{{ .URL }}">{{ .Name }}</a>
+            <a href="{{ .URL | absLangURL }}">{{ .Name }}</a>
             {{ end  }}
         </li>
         {{ end }}
