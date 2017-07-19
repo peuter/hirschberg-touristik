@@ -44,6 +44,41 @@
             </div>
         </section>
 
+        <section class="wrapper style4 container">
+            <div class="row">
+                {{ range .Site.Data.freizeit.sonstige.entries }}
+                <div class="5u 12u(narrower)">
+                    <section>
+                        <header>
+                            <h3>{{ .title }}</a></h3>
+                        </header>
+                        <p class="intro">{{ .description }}</p>
+                    </section>
+                </div>
+                <div class="2u 12u(narrower)">
+                    {{ if .banner }}
+                    <img src="{{ .Site.BaseURL}}{{ .banner }}" alt="" />
+                    {{ else }}
+                    <span class="icon featured {{ .icon }}"></span>
+                    {{ end }}
+                </div>
+                <div class="5u 12u(narrower)">
+                    <section>
+                        {{ range $index, $entry := .links }}
+                        {{ if gt $index 0}}
+                        <hr class="sep"/>
+                        {{end}}
+                        <p>
+                            {{.description}}<br/>
+                            <a href="{{.link}}">{{.link}}</a>
+                        </p>
+                        {{ end }}
+                    </section>
+                </div>
+                {{ end }}
+            </div>
+        </section>
+
     </article>
 
     {{ partial "footer.html" . }}

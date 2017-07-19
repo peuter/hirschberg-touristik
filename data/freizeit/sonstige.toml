@@ -1,0 +1,14 @@
+[[entries]]
+icon = "fa-beer"
+title = "Rund ums Bier"
+description = """Das Thema Bier darf natürlich in Warstein nicht fehlen.
+    Neben der weltbekannten Warsteiner Brauerei, gibt es jedoch auch anderen
+    Möglichkeiten sich mit dem Gerstensaft zu beschäftigen."""
+
+    [[entries.links]]
+    link = "http://www.warsteiner.de"
+    description = "Informationen über die Warsteiner Brauerei inkl. Reservierungsanfragen und Details zur Brauereibesichtigung"
+
+    [[entries.links]]
+    link = "http://www.home-brew-tec.de"
+    description = "Bierkenner-Diplom, Braukurse, Schaubrauen und Workshops zur Likörherstellung direkt in Hirschberg"

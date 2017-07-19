@@ -3218,3 +3218,7 @@ a > span.icon.featured {
 #header.reveal.alt img {
 	display: none;
 }
+
+hr.sep {
+	border: 1px dotted #CCC;
+}

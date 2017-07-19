@@ -45,7 +45,7 @@
         <section class="wrapper style1 container special">
             <h2>Freizeitaktivitäten</h2>
             <div class="row">
-                {{ range $index, $page := .Site.Taxonomies.categories.freizeit }}
+                {{ range $index, $page := first 3 (.Site.Taxonomies.categories.freizeit) }}
                     {{ if and (gt $index 0) (eq (mod $index 3) 0)}}
             </div>
             <div class="row">
@@ -57,21 +57,7 @@
 
     </article>
 
-    <!-- CTA -->
-    <!--<section id="cta">-->
-
-        <!--<header>-->
-            <!--<h2>&lt;!&ndash;[&ndash;&gt;Ready to do <strong>something</strong>?&lt;!&ndash;]&ndash;&gt;</h2>-->
-            <!--<p>Proin a ullamcorper elit, et sagittis turpis integer ut fermentum.</p>-->
-        <!--</header>-->
-        <!--<footer>-->
-            <!--<ul class="buttons">-->
-                <!--<li><a href="#" class="button special">&lt;!&ndash;[&ndash;&gt;Take My Money&lt;!&ndash;]&ndash;&gt;</a></li>-->
-                <!--<li><a href="#" class="button">&lt;!&ndash;[&ndash;&gt;LOL Wut&lt;!&ndash;]&ndash;&gt;</a></li>-->
-            <!--</ul>-->
-        <!--</footer>-->
-
-    <!--</section>-->
+    <section id="cta"></section>
 
     {{ partial "footer.html" . }}
 
