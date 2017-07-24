@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+{{ partial "header.html" . }}
+</head>
+<body class="index">
+<div id="page-wrapper">
+
+    <!-- Header -->
+    <header id="header" class="alt">
+        {{ partial "top.html" . }}
+
+        {{ partial "nav.html" . }}
+    </header>
+
+    {{ partial "banner.html" . }}
+
+    <article id="main">
+        <section class="wrapper style3 container special">
+            {{ .Content }}
+        </section>
+        <section class="wrapper style3 container special">
+            <div class="row">
+                {{ block "main" . }}
+
+                {{ end }}
+            </div>
+        </section>
+
+        {{ block "additional" . }}
+
+        {{ end }}
+    </article>
+
+    {{ partial "footer.html" . }}
+
+</div>
+<!-- /#all -->
+
+{{ partial "scripts.html" . }}
+
+</body>
+</html>
