@@ -34,9 +34,12 @@ Platz bietet den idealen Ausgangspunkt für beides.
 Ausgehend von den verschiedenen Wanderparkplätzen rund um Hirschberg finden Sie ingesamt 192 km 
 vom SGV gekennzeichnete Wanderwege.
 
-In der Karte finden sie einige ausgewählte Wandertouren in der Hirschberger Umgebung.
+Nachfolgend finden Sie einige ausgewählte Wandertouren in der Hirschberger Umgebung.
 
-{{< map >}}
+{{< tour title="mehr-sehn" id="109657720" >}}
+{{< tour title="a5--halletal" id="111703933" >}}
+{{< tour title="a7--halletal" id="111703931" >}}
+{{< clear >}}
 
 {{< surftip link="http://www.sgv-hirschberg.de/index.php?id=33" >}}
  Informationen zu den Wandermöglichkeiten Rund um Hirschberg
