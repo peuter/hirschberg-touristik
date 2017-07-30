@@ -32,8 +32,16 @@ Platz bietet den idealen Ausgangspunkt für beides.
 ### Sonstige Wanderwege
 
 Ausgehend von den verschiedenen Wanderparkplätzen rund um Hirschberg finden Sie ingesamt 192 km 
-vom SGV gekennzeichnete Wanderwege. 
+vom SGV gekennzeichnete Wanderwege.
 
 In der Karte finden sie einige ausgewählte Wandertouren in der Hirschberger Umgebung.
 
 {{< map >}}
+
+{{< surftip link="http://www.sgv-hirschberg.de/index.php?id=33" >}}
+ Informationen zu den Wandermöglichkeiten Rund um Hirschberg
+{{< /surftip >}}
+
+{{< surftip link="http://www.marketing-warstein.de/" >}}
+ Der Stadtmarketing Verband Warstein bietet bebilderte Broschüren über Wander- und Radwege in Hirschberg und Umgebung.
+{{< /surftip >}}

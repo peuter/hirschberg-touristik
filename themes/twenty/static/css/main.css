@@ -3232,3 +3232,21 @@ figure.right {
 	float: right;
 	margin-left: 1em;
 }
+
+.surftip {
+	background-color: #d6f6f7;
+	width: auto;
+	padding: 2em;
+	margin: 0 2em 1em 2em;
+	border-radius: 1em;
+}
+
+.surftip h4 {
+	font-weight: bold;
+	margin-bottom: 0;
+}
+
+.surftip a {
+	color: rgb(124, 128, 129);
+	font-weight: 400;
+}

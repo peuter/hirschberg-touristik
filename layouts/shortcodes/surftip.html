@@ -1,0 +1,6 @@
+    <div class="surftip 6u 12u(narrower)">
+        <h4>Surftipp</h4>
+        {{ .Inner }}
+        <br/>
+        <a href="{{ .Get "link" }}" target="_blank">{{ if .Get "linkTitle" }}{{ .Get "linkTitle" }}{{ else }}{{ .Get "link" }}{{ end }}</a>
+    </div>
