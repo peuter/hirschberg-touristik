@@ -1,6 +1,12 @@
 {{ define "main" }}
 <section class="wrapper style3 container special">
     <div class="row">
+        {{ .Content }}
+    </div>
+</section>
+
+<section class="wrapper style3 container special">
+    <div class="row">
     {{ $paginator := .Paginate (where .Data.Pages "Type" .Section) }}
     {{ range $paginator.Pages.ByWeight }}
         {{ if in .Params.Categories .Section }}

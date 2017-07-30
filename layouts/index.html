@@ -1,0 +1,69 @@
+<!DOCTYPE HTML>
+<!--
+	Twenty by HTML5 UP - modified and ported to hugo by Tobias Bräutigam
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html lang="{{ .Site.LanguageCode }}">
+    {{ partial "header.html" . }}
+</head>
+<body class="index">
+<div id="page-wrapper">
+
+    <!-- Header -->
+    <header id="header" class="alt">
+        {{ partial "top.html" . }}
+
+        {{ partial "nav.html" . }}
+    </header>
+
+    {{ partial "banner.html" . }}
+
+    <!-- Main -->
+    <article id="main">
+
+        <header class="special container">
+            <img src="{{ .Site.BaseURL }}images/Logo_Hirschberg_300.png" />
+            <h2>{{ i18n "Hirschberg im Sauerland" }}</h2>
+            <p>
+                Der staatlich anerkannte Erholungsort Hirschberg liegt malerisch eingebettet
+                in den Naturpark Arnsberger Wald, das größte zusammenhängende Waldgebiet
+                Nordrhein-Westfalens. Hirschberg, ehemaliger Jagdsitz der Kölner Kurfürsten,
+                liegt 450 m über NN. Das Ortsbild wird geprägt von zahlreichen denkmalgeschützen
+                Fachwerkhäusern. Mit seiner Lage direkt an der Sauerland-Waldroute lädt der Ort
+                nicht nur Wanderer zum Verweilen und Betrachten der zahlreichen Sehenswürdigkeiten ein.
+            </p>
+        </header>
+
+        <section class="wrapper style2 container special-alt">
+            <div class="row 50%">
+                <div class="8u 12u(narrower)">
+                </div>
+            </div>
+        </section>
+
+        <section class="wrapper style1 container special">
+            <h2>{{ i18n "Freizeitaktivitäten" }}</h2>
+            <div class="row">
+                {{ range $index, $page := first 3 (.Site.Taxonomies.categories.freizeit) }}
+                    {{ if and (gt $index 0) (eq (mod $index 3) 0)}}
+            </div>
+            <div class="row">
+                    {{end}}
+                    {{ $page.Render "teaser"}}
+                {{ end }}
+            </div>
+        </section>
+
+    </article>
+
+    <section id="cta"></section>
+
+    {{ partial "footer.html" . }}
+
+</div>
+
+{{ partial "scripts.html" . }}
+
+</body>
+</html>

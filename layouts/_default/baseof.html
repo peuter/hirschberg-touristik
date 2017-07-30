@@ -15,19 +15,10 @@
     {{ partial "banner.html" . }}
 
     <article id="main">
-        <section class="wrapper style3 container special">
-            {{ .Content }}
-        </section>
-        <section class="wrapper style3 container special">
-            <div class="row">
-                {{ block "main" . }}
-
-                {{ end }}
-            </div>
-        </section>
+        {{ block "main" . }}
+        {{ end }}
 
         {{ block "additional" . }}
-
         {{ end }}
     </article>
 

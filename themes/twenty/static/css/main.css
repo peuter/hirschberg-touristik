@@ -3222,3 +3222,13 @@ a > span.icon.featured {
 hr.sep {
 	border: 1px dotted #CCC;
 }
+
+figure.left {
+	float: left;
+	margin-right: 1em;
+}
+
+figure.right {
+	float: right;
+	margin-left: 1em;
+}
