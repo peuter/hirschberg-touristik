@@ -1,0 +1,14 @@
+{{ $type := .Get "type"}}
+{{ $lang := .Site.Language.Lang }}
+{{ if .Get "lang" }}
+    {{ $lang := .Get "lang" }}
+{{ end }}
+{{ $data := index .Site.Data.touren $type }}
+{{ range $index, $entry := $data.tours }}
+<div class="4u 12u(narrower)" style="float: left;">
+    <script type="text/javascript" src="https://www.outdooractive.com/{{ $lang }}/wanderung/sauerland/{{ .name }}/{{ int .tid }}/tour2go"></script>
+</div>
+{{ if and (gt $index 0) (eq (mod $index 3) 0) }}
+<div style="clear: both"/>
+{{ end }}
+{{ end }}

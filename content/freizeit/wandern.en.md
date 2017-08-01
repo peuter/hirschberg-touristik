@@ -22,3 +22,6 @@ slug = "hiking"
 
 Due to its location in the heart of the Arnsberg forest, Hirschberg offers numerous 
 hiking opportunities. In addition to the Sauerland Waldroute, there are 192km of marked hiking trails around Hirschberg.
+
+{{< tourlist type="wandern" lang="en" >}}
+{{< clear >}}

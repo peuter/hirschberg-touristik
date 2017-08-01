@@ -36,9 +36,7 @@ vom SGV gekennzeichnete Wanderwege.
 
 Nachfolgend finden Sie einige ausgewählte Wandertouren in der Hirschberger Umgebung.
 
-{{< tour title="mehr-sehn" id="109657720" >}}
-{{< tour title="a5--halletal" id="111703933" >}}
-{{< tour title="a7--halletal" id="111703931" >}}
+{{< tourlist type="wandern" >}}
 {{< clear >}}
 
 {{< surftip link="http://www.sgv-hirschberg.de/index.php?id=33" >}}
