@@ -9,6 +9,7 @@ teaser = "Hirschberg bietet aufgrund seiner Lage mitten im Arnsberger Wald, zahl
 categories = ["freizeit"]
 categories_weight = 2
 weight = 2
+draft = true
 [menu.main]
     parent = "freizeit"
 +++
