@@ -1,6 +1,6 @@
 languageCode = "de-de"
 title = "Urlaub in Hirschberg - natürlich im Sauerland"
-baseurl = "https://peuter.github.io/hirschberg-touristik/"
+baseurl = "http://www.hirschberg-touristik.de/"
 theme = "twenty"
 # Site language. Available translations in the theme's `/i18n` directory.
 defaultContentLanguage = "de"
