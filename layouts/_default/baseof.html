@@ -11,9 +11,8 @@
 
         {{ partial "nav.html" . }}
     </header>
-
-    {{ partial "banner.html" . }}
-
+    {{ block "banner" . }}
+    {{ end }}
     <article id="main">
         {{ block "main" . }}
         {{ end }}
