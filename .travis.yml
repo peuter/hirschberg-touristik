@@ -1,0 +1,20 @@
+env:
+  global:
+    secure: "r6y2wOy9uakzp4BLj0oEwB7Dq8xPlfRxNr7CYyxzQ5RnVA1N/Tixb5MuVzcwpOk+vzW130QbXEuHbf3MWvEbiQMr6x/5wTw6wY6EZpwSKJFhS8kX7Iw24P6kkuZjUFRhkQnTL8ukY5neh4X7jsoot+Jqt/Cu2FMt03+hfFZ8ooXyHvrcU9j25+V8oV7wBtNt4pJtk0c1pvssRIw9xZ+ZwU+2t8rWz4hS8dLqMmXBp6n2D5hoDYd6h6vbQb2GKWDb0fCqOT4fbq3pTu1KKCoB8WQ1r7bMboIHS9+fSt4L2ohSi7/Cl4UUmw+HAkgyzes/1UK323L6nLzU7qlid71h6CaQN2q9blRmrLyO0spB51FJPfwOabqHZM/2ZrwyJbgd7puSOWhaRuoy63AqtVqf4D3sMIKSzVhZ/sBP54yNqh+n9cjs13Fj9Euab3Y4lC4o4ZUq8CzC8AObFVAYVvEZpuBMyfiirVJGXyHqc7bdcGB8ra6LKoP7VE7sqMSmOVLkOuguzMp9aS5Ru8P59FDvpm0Ngtm6s/iUMvV8iv/0SeStDx9ssgcytNJ5O/GUPPX93UPud7KrU6DRt2UlMK2eiCp6cSYMxYcbrwudVJBjaHBvpjZtv3dfaFXVBMzI48twoBoLxWmrlV0lHBxA5aoU8eGeRS0WOSJQ7Xf+RM238m8="
+
+# Clean and don't fail
+install:
+  - rm -rf public || exit 0
+
+# Build the website
+script:
+  - ./utils/hugo
+
+# Deploy to GitHub pages
+deploy:
+  provider: pages
+  skip_cleanup: true
+  local_dir: public
+  github_token: $GITHUB_TOKEN
+  on:
+    branch: master
