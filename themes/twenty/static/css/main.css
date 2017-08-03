@@ -3248,3 +3248,7 @@ figure.right {
 	color: rgb(124, 128, 129);
 	font-weight: 400;
 }
+.maplink {
+	text-align: center;
+	clear: both;
+}

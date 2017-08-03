@@ -1,18 +1,31 @@
-<div class="oax-top-cont 8u 12u(narrower)"></div>
+{{ $config := .Get "config"}}
+{{ $data := index .Site.Data.markers $config }}
+<a name="map"></a>
+<div class="12u" style="margin-bottom: 2em">
+    <div id="mapid" style="height: 360px"></div>
+</div>
 <script type="text/javascript">
-  var conf = {
-    frontendtype:   "tour",          // choose content type
-    zoom:           13,              // set initial zoom level
-    center:       [ 8.276003, 51.429775 ], // set initial map center
-    initMode: "listMap",
-    whatType: "none",
-    whereType: "none"
-  };
-  var fvp = oa.api.flexviewpage( conf );
-  fvp.setDataPointList( [
-    '1379570', // Sauerland Waldroute nach Warstein
-    '109657720', // Mehr seen: Hirschberg - Sedansteich - Bilsteinhöhle
-    '111703931', // A7 Halletal
-    '111703933' // A5 Halletal, grosse Runde
-  ] );
+  var mymap = L.map('mapid').setView({{ with $data.view }}[{{.lat}}, {{.long}}], {{.zoom}}{{ else }}[51.430765, 8.276776], 13{{ end }});
+  var layer = L.tileLayer('http://{s}.tile.openstreetmap.de/tiles/osmde/{z}/{x}/{y}.png', {
+    maxZoom: 18,
+    attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+  });
+  layer.addTo(mymap);
+  var markers = {};
+  var marker;
+  {{ range $data.markers }}
+  marker = L.marker([{{ .lat }}, {{ .long }}]);
+  marker.bindPopup("<b>{{ .name }}</b>");
+  marker.addTo(mymap);
+  markers[{{ .id }}] = marker;
+  {{ end }}
+
+  function showMarker(id) {
+    if (markers[id]) {
+      mymap.setView(markers[id].getLatLng());
+      // scroll to map
+      window.location.href = window.location.href.split("#")[0] + "#map";
+      markers[id].openPopup();
+    }
+  }
 </script>

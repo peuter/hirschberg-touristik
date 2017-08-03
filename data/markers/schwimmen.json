@@ -1,0 +1,45 @@
+{
+  "view": {
+    "lat": 51.430765,
+    "long": 8.276776,
+    "zoom": 10
+  },
+  "markers": [
+    {
+      "id": "allwetter",
+      "name": "Allwetterbad Warstein",
+      "lat": 51.448524,
+      "long": 8.344889
+    },
+    {
+      "id": "biberbad",
+      "name": "Biberbad Rüthen",
+      "lat": 51.479004,
+      "long": 8.450933
+    },
+    {
+      "id": "meschede",
+      "name": "Freibad Meschede",
+      "lat": 51.34982,
+      "long": 8.273585
+    },
+    {
+      "id": "moehnesee",
+      "name": "Möhnesee",
+      "lat": 51.495706,
+      "long": 8.130569
+    },
+    {
+      "id": "hennesee",
+      "name": "Hennesee",
+      "lat": 51.33147,
+      "long": 8.263779
+    },
+    {
+      "id": "alberssee",
+      "name": "Strandbad Alberssee",
+      "lat": 51.702593,
+      "long": 8.403468
+    }
+  ]
+}
