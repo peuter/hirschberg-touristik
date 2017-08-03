@@ -39,8 +39,18 @@
 <section class="wrapper style4 container">
     <div class="row">
         {{ $data := index .Site.Data .Site.Language.Lang .Section }}
-        {{ range $data.sonstige.entries }}
-        <div class="4u 12u(narrower)">
+        {{ range $i, $entry := $data.sonstige.entries }}
+        {{ if gt $i 0}}
+        <hr class="sep"/>
+        {{end}}
+        {{ if isset . "cols" }}
+            {{ $.Scratch.Set "firstCol" .cols }}
+        {{ else }}
+            {{ $.Scratch.Set "firstCol" 4 }}
+        {{ end }}
+        {{ $firstCol := $.Scratch.Get "firstCol" }}
+        {{ $lastCol := sub 11 $firstCol }}
+        <div class="{{ $firstCol }}u 12u(narrower)" style="clear:left">
             <section>
                 <header>
                     <h3>{{ .title }}</a></h3>
@@ -48,9 +58,11 @@
                 <p class="intro">{{ .description }}</p>
             </section>
         </div>
+        {{ if gt $lastCol 1 }}
         <div class="1u 12u(narrower)">
         </div>
-        <div class="7u 12u(narrower)">
+        {{ end }}
+        <div class="{{ if le $lastCol 0 }}nopad 12{{ else }}{{ $lastCol }}{{ end }}u 12u(narrower)">
             <section>
                 {{ range $index, $entry := .links }}
                 {{ if gt $index 0}}
@@ -64,7 +76,7 @@
                 {{ end }}
                 <p>
                     {{.description}}<br/>
-                    <a href="{{.link}}">{{.link}}</a>
+                    <a href="{{.link}}">{{ if isset . "linkTitle"}}{{ .linkTitle }}{{ else }}{{ .link }}{{ end }}</a>
                 </p>
                 {{ end }}
             </section>

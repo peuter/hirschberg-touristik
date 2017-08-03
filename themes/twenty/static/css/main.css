@@ -3219,6 +3219,10 @@ a > span.icon.featured {
 
 hr.sep {
 	border: 1px dotted #CCC;
+	float: none;
+	clear: both;
+	padding: 0;
+	margin-left: 50px;
 }
 
 figure.left {
@@ -3251,4 +3255,7 @@ figure.right {
 .maplink {
 	text-align: center;
 	clear: both;
+}
+.nopad {
+	padding: 0 0 50px 50px;
 }

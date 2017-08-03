@@ -1,0 +1,35 @@
+{
+ "entries": [
+     {
+        "title": "Geocaching",
+        "description": "Geocaching ist eine moderne Form der Schnitzeljagd und stellt eine Art elektronische Schatzsuche dar. Eine Route besteht aus verschiedenen Verstecken in denen sich sogenannte Caches befinden. Die Standorte der Caches werden anhand geographischer Koordination im Internet veröffentlicht und können dadurch mit Hilfe eines GPS-Empfängers gesucht werden. Ein Cache besteht in der Regel aus einem Wasserdichten Behälter, in dem sich ein Logbuch und diverse Tauschgegenstände befinden. Der Besucher trägt sich in das Logbuch ein und versteckt den Cache wieder an der gefundenen Stelle. Auch in Hirschberg und Umgebung sind mehrere Caches versteckt.",
+         "cols": 12,
+        "links": [
+            {
+                "title": "Karte mit Caches",
+                "link": "http://www.geocaching.com/map/beta/default.aspx?lat=51.4534&lng=8.29458",
+                "icon": "fa-map",
+                "description": "Übersicht über die Caches in Hirschberg und Umgebung"
+            }
+        ]
+     },
+     {
+         "title": "Rund ums Bier",
+         "description": "Das Thema Bier darf natürlich in Hirschberg nicht fehlen. Neben der weltbekannten Warsteiner Brauerei, gibt es jedoch auch andere Möglichkeiten sich mit dem Gerstensaft zu beschäftigen.",
+         "links": [
+             {
+                 "title": "Warsteiner Brauerei",
+                 "link": "http://www.warsteiner.de",
+                 "logo": "images/branding.svg",
+                 "description": "Informationen über die Warsteiner Brauerei inkl. Reservierungsanfragen und Details zur Brauereibesichtigung"
+             },
+             {
+                 "title": "Home-Brew-Tec",
+                 "link": "http://www.home-brew-tec.de",
+                 "logo": "images/logo_hbt.png",
+                 "description": "Bierkenner-Diplom, Braukurse, Schaubrauen und Workshops zur Likörherstellung direkt in Hirschberg"
+             }
+         ]
+     }
+ ]
+}
