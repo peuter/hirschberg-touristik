@@ -50,6 +50,7 @@
         {{ end }}
         {{ $firstCol := $.Scratch.Get "firstCol" }}
         {{ $lastCol := sub 11 $firstCol }}
+        <a class="nopad" name="{{ .title | lower | urlize }}"></a>
         <div class="{{ $firstCol }}u 12u(narrower)" style="clear:left">
             <section>
                 <header>
@@ -62,7 +63,7 @@
         <div class="1u 12u(narrower)">
         </div>
         {{ end }}
-        <div class="{{ if le $lastCol 0 }}nopad 12{{ else }}{{ $lastCol }}{{ end }}u 12u(narrower)">
+        <div class="{{ if le $lastCol 0 }}invert-pad 12{{ else }}{{ $lastCol }}{{ end }}u 12u(narrower)">
             <section>
                 {{ range $index, $entry := .links }}
                 {{ if gt $index 0}}

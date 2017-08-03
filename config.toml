@@ -48,6 +48,18 @@ title = "Vacation in Hirschberg"
     weight = 4
     identifier = "unterkuenfte"
 
+[[menu.freizeit]]
+    name = "Geocaching"
+    url  = "/freizeit/#geocaching"
+    weight = 4
+    identifier = "geocaching"
+
+[[menu.freizeit]]
+    name = "Rund ums Bier"
+    url  = "/freizeit/#rund-ums-bier"
+    weight = 5
+    identifier = "rund-ums-bier"
+
 [[languages.en.menu.main]]
     name = "Welcome"
     url  = "/"

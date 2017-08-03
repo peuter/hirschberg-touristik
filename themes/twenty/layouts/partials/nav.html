@@ -2,6 +2,7 @@
 {{ $page := .Page }}
 <nav id="nav">
     <ul>
+        {{ $menus := .Site.Menus }}
         {{ range .Site.Menus.main }}
         {{ $is := $page.IsMenuCurrent "main" . }}
         {{ $has := $page.HasMenuCurrent "main" . }}
@@ -9,8 +10,13 @@
             {{ if .HasChildren }}
             <a href="{{ .URL }}">{{ .Name }}</a>
             <ul>
+                {{ $id := .Identifier }}
                 {{ range .Children }}
                 <li class="{{ if $is }}current{{ end }}"><a href="{{ .URL }}">{{ .Name }}</a></li>
+                {{ end }}
+                {{ $addMenu := index $menus $id }}
+                {{ range $addMenu }}
+                  <li><a href="{{ .URL }}">{{ .Name }}</a></li>
                 {{ end }}
             </ul>
             {{ else }}

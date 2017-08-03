@@ -3257,5 +3257,8 @@ figure.right {
 	clear: both;
 }
 .nopad {
+	padding: 0;
+}
+.invert-pad {
 	padding: 0 0 50px 50px;
 }
