@@ -15,8 +15,10 @@
                 <li class="{{ if $is }}current{{ end }}"><a href="{{ .URL }}">{{ .Name }}</a></li>
                 {{ end }}
                 {{ $addMenu := index $menus $id }}
-                {{ range $addMenu }}
-                  <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+                {{ if $addMenu }}
+                    {{ range $addMenu }}
+                      <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+                    {{ end }}
                 {{ end }}
             </ul>
             {{ else }}
