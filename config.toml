@@ -32,7 +32,7 @@ title = "Vacation in Hirschberg"
 
 [[menu.main]]
     name = "Sehenswürdigkeiten"
-    url  = "/sehenswuerdig/"
+    url  = "/sehenswuerdigkeiten/"
     weight = 2
     identifier = "poi"
 
