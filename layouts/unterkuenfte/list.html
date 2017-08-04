@@ -1,0 +1,63 @@
+{{ define "banner" }}
+<section id="banner" style="background-image: url('{{ .Site.BaseURL }}css/images/light-bl.svg'), url('{{ .Site.BaseURL }}css/images/light-br.svg'), url('{{ .Site.BaseURL }}css/images/overlay.png'), url('{{ .Site.BaseURL }}images/wald2.jpg')">
+</section>
+{{ end }}
+{{ define "main" }}
+<section class="wrapper style3 container special">
+    <div class="row">
+        {{ .Content }}
+    </div>
+</section>
+
+<section class="wrapper style4 container">
+    <div class="row">
+        {{ $data := index .Site.Data .Site.Language.Lang "gastgeber" }}
+        {{ range $i, $entry := $data.accomodations.hotels }}
+        {{ if gt $i 0}}<hr class="sep"/>{{ end }}
+        <a class="nopad" name="{{ .title | lower | urlize }}"></a>
+        <div class="8u 12u(narrower)" style="clear:left">
+            <section class="accomodation">
+                <header>
+                    <h3>{{ .title }}</a></h3>
+                </header>
+                <label>{{ i18n "Lage" }}</label>
+                <p class="intro">{{ .location }}</p>
+                <label>{{ i18n "Hauscharakter" }}</label>
+                <p class="intro">{{ .character }}</p>
+                <label>{{ i18n "Zimmer" }}</label>
+                <p class="intro">{{ .rooms }}</p>
+                <label>{{ i18n "Besonderheiten" }}</label>
+                <p class="intro">{{ .specials }}</p>
+                <label>{{ i18n "Preise" }}</label>
+                <p class="intro">{{ .price_info }}</p>
+            </section>
+        </div>
+        <div class="4u 12u(narrower)">
+            <section class="contact">
+                {{ with index $data.accomodations.contacts .contact_id }}
+                <h4>{{ i18n "contactTitle" }}</h4>
+                <p class="intro">
+                    {{ if .contact_lastname}}
+                        {{ .contact_salutation }} {{ .contact_firstname }} {{ .contact_lastname }}
+                    {{ else }}
+                        {{ .company_name }}
+                    {{ end }}<br/>
+                    {{ .street }} {{ .house_number }}<br/>
+                    {{ .zip }} {{ .city }}
+                </p>
+                <p class="intro">
+                    {{ if .phone }}{{ i18n "Tel." }}: {{ .phone }}<br/>{{ end }}
+                    {{ if .mobile }}{{ i18n "Handy" }}: {{ .mobile }}<br/>{{ end }}
+                    {{ if .fax }}{{ i18n "Fax" }}: {{ .fax }}<br/>{{ end }}
+                    {{ if .email_address }}<a href="mailto:{{ .email_address }}">{{ .email_address }}</a><br/>{{ end }}
+                    {{ if .web_address }}<a href="{{ .web_address }}" target="_blank">{{ .web_address }}</a><br/>{{ end }}
+                </p>
+                {{ end }}
+            </section>
+        </div>
+        {{ end }}
+    </div>
+</section>
+{{ end }}
+{{ define "additional" }}
+{{ end }}

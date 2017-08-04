@@ -87,3 +87,30 @@
 
 - id: "Surftip"
   translation: "Surftipp"
+
+- id: "Lage"
+  translation: "Lage"
+
+- id: "Hauscharakter"
+  translation: "Hauscharakter"
+
+- id: "Besonderheiten"
+  translation: "Besonderheiten"
+
+- id: "Preise"
+  translation: "Preise"
+
+- id: "Zimmer"
+  translation: "Zimmer"
+
+- id: "Tel."
+  translation: "Tel."
+
+- id: "Handy"
+  translation: "Handy"
+
+- id: "Fax"
+  translation: "Fax"
+
+- id: "E-Mail"
+  translation: "E-Mail"
