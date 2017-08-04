@@ -44,7 +44,7 @@ title = "Vacation in Hirschberg"
 
 [[menu.main]]
     name = "Unterkünfte"
-    url  = "/unterkuenfte/"
+    url  = "#"
     weight = 4
     identifier = "unterkuenfte"
 
