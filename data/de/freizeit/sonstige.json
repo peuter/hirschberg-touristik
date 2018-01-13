@@ -3,7 +3,7 @@
      {
         "title": "Geocaching",
         "description": "Geocaching ist eine moderne Form der Schnitzeljagd und stellt eine Art elektronische Schatzsuche dar. Eine Route besteht aus verschiedenen Verstecken in denen sich sogenannte Caches befinden. Die Standorte der Caches werden anhand geographischer Koordination im Internet veröffentlicht und können dadurch mit Hilfe eines GPS-Empfängers gesucht werden. Ein Cache besteht in der Regel aus einem Wasserdichten Behälter, in dem sich ein Logbuch und diverse Tauschgegenstände befinden. Der Besucher trägt sich in das Logbuch ein und versteckt den Cache wieder an der gefundenen Stelle. Auch in Hirschberg und Umgebung sind mehrere Caches versteckt.",
-         "cols": 12,
+        "cols": 12,
         "links": [
             {
                 "title": "Karte mit Caches",
@@ -11,6 +11,32 @@
                 "icon": "fa-map",
                 "description": "Übersicht über die Caches in Hirschberg und Umgebung"
             }
+        ]
+     },
+     {
+        "title": "Klettern",
+        "description": "Im Mittelpunkt des Klettergebietes steht die Hillenbergwand mit Touren von bis zu 50 Klettermetern. Insgesamt sind im Klettergebiet bereits über 80 Routen eingerichtet mit Schwierigkeiten ab dem 3. Grad bis zu anspruchsvollen Kletterlinien im 9. Schwierigkeitsgrad. Mit der Wandhöhe und der damit verbundenen Möglichkeit von Mehrseillängentouren ist der Warsteiner Steinbruch eines der herausragenden Klettergebiete im Sauerland und sogar in ganz Nordrhein-Westfalen.",
+        "quote": "http://www.kletterarena.info/hillenberg.php",
+        "cols": 12,
+        "links": [
+            {
+                "title": "Kletterarena Hillenberg (Warstein)",
+                "link": "http://www.kletterarena.info/hillenberg.php",
+                "logo": "images/hillenberg2013.jpg"
+            }
+        ]
+     },
+     {
+        "title": "Stand-Up-Paddling (SUP)",
+        "description": "SUPen ist eine spaßige, einfache und Umweltschonende Art auf dem Wasser zu spielen. Der Umgang mit Board und Paddel ist für Sportbegeisterte, und auch Ungeübte leicht zu erlernen und kann an Flüssen, Seen oder an der Küste ausgeführt werden. Stand Up Paddeln bietet ein ideales Ganz-Körper-Workout, ein Fitnesstraining unter freiem Himmel, der ganze Körper wird auf gesunde Weise beansprucht. Im Einklang mit der Natur wirkt das Paddeln beruhigend und entspannend",
+        "cols": 12,
+        "links": [ 
+           {
+               "title": "Wassersport Hennesee",
+               "description": "Wassersportcenter in Stand Up Paddling & Sit on Top Kajak fahren",
+               "logo": "images/logo_wassersport-hennesee.jpg",
+               "link": "http://wassersport-hennesee.de/"
+           }
         ]
      },
      {
@@ -30,6 +56,52 @@
                  "description": "Bierkenner-Diplom, Braukurse, Schaubrauen und Workshops zur Likörherstellung direkt in Hirschberg"
              }
          ]
-     }
+     },
+     {
+        "title": "Planwagenfahrten",
+        "description": "Wenn Sie es etwas gemütlicher mögen, haben Sie die Möglichkeit Hirschberg und dessen Umgebung mit dem Planwagen zu erkunden. Gerade für größere Gruppen mit bis zu 50 Personen (aufgeteilt auf 2 TÜV-abgenommene Planwagen) ist diese Art des \"Sightseeings\" eine kurzweilige Möglichkeit die örtlichen Sehenswürdigkeiten in geselliger Runde zu erleben.        Die Verpflegung auf dem Wagen und die angefahrenen Ziele werden mit Ihnen individuell abgestimmt. Ob Sie nun mit einem herzhaften Frühstück auf dem Planwagen, Kaffee und Kuchen, einem deftigen Grillbuffet oder einem Gaumenschmaus aus der Gulaschkanone stärken möchten, liegt ganz in Ihrem ermessen.",
+        "cols": 12,
+        "links": [ 
+           {
+               "title": "Warsteiner Planwagenfahrten",
+               "logo": "images/warsteiner-planwagen.jpg",
+               "link": "http://www.warsteiner-planwagenfahrten.de/"
+           }
+        ]
+     },
+     {
+         "title": "Kino",
+         "links": [
+            {
+                "title": "Linden-Theater Meschede (Entfernung 14km)",
+                "link": "http://www.kino-meschede.de/"
+            },
+            {
+                "title": "Residenz Kino-Center Arnsberg (Entfernung 20km)",
+                "link": "https://www.cineplex.de/arnsberg/"
+            },
+            {
+                "title": "Universum Soest (Entfernung 23km)",
+                "link": "https://universum-soest.com"
+            },
+            {
+                "title": "Cineplex Lippstadt (Entfernung 36km)",
+                "link": "https://www.cineplex.de/lippstadt/"
+            }
+         ]
+     },
+     {
+        "title": "Bowling",
+        "links": [
+           {
+               "title": "Red Bowl Soest (Entfernung 24km):",
+               "link": "http://www.redbowl-soest.de/"
+           },
+           {
+               "title": "Bowling bei Bert in Lippstadt (Entfernung 35km):",
+               "link": "http://www.bowling-bei-bert.de/"
+           }
+        ]
+    }
  ]
 }

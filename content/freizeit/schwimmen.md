@@ -4,6 +4,7 @@ title = "Wassersport"
 description = "Schwimmen und Wassersport in der Nähe von Hirschberg"
 keywords = ["Schwimmen", "Wassersport", "Freibad", "Allwetterbad", "Stausee", "Natur"]
 icon = "fa-anchor"
+banner = "images/moehnesee.jpg"
 teaser = """
 In der näheren Umgebung gibt es eine große Auswahl für Wasserratten.
 Angefangen von Freibädern über Allwetterbädern bis hin zu Badeseen.
@@ -98,6 +99,10 @@ des Knaus Campingpark Hennesee am Vorstaubecken.
 
 {{< surftip link="http://www.hennesee-tourismus.eu/" >}}
  Informationen zum Hennesee
+{{< /surftip >}}
+
+{{< surftip link="http://wassersport-hennesee.de/" >}}
+ Wassersportcenter in Stand Up Paddling & Sit on Top Kajak fahren
 {{< /surftip >}}
 
 #### Strandbad Alberssee

@@ -55,10 +55,28 @@ title = "Vacation in Hirschberg"
     identifier = "geocaching"
 
 [[menu.freizeit]]
+    name = "Klettern"
+    url  = "/freizeit/#klettern"
+    weight = 5
+    identifier = "klettern"
+
+[[menu.freizeit]]
+    name = "Standup-Paddling"
+    url  = "/freizeit/#stand-up-paddling-sup"
+    weight = 6
+    identifier = "stand-up-paddling-sup"
+
+[[menu.freizeit]]
     name = "Rund ums Bier"
     url  = "/freizeit/#rund-ums-bier"
-    weight = 5
+    weight = 7
     identifier = "rund-ums-bier"
+
+[[menu.freizeit]]
+    name = "Planwagenfahrten"
+    url  = "/freizeit/#planwagenfahrten"
+    weight = 8
+    identifier = "planwagenfahrten"
 
 [[languages.en.menu.main]]
     name = "Welcome"
@@ -110,7 +128,7 @@ title = "Vacation in Hirschberg"
     email = "webmaster@hirschberg-touristik.de"
 
     about_us = "Vereinsring Hirschberg e.V."
-    copyright = "Copyright &copy; 2017, Vereinsring Hirschberg e.V."
+    copyright = "Copyright &copy; 2017-{year}, Vereinsring Hirschberg e.V."
 
     # Format dates with Go's time formatting
     date_format = "2. Januar 2006"

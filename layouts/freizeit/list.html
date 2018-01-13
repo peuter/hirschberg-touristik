@@ -56,7 +56,12 @@
                 <header>
                     <h3>{{ .title }}</a></h3>
                 </header>
-                <p class="intro">{{ .description }}</p>
+                <p class="intro">
+                    {{ .description }}
+                    {{ if .quote }}
+                    <span class="quote">[Quelle: {{.quote}}]</span>
+                    {{ end }}
+                </p>
             </section>
         </div>
         {{ if gt $lastCol 1 }}

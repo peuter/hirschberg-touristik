@@ -45,7 +45,7 @@
         <section class="wrapper style1 container special">
             <h2>{{ i18n "Freizeitaktivitäten" }}</h2>
             <div class="row">
-                {{ range $index, $page := first 3 (.Site.Taxonomies.categories.freizeit) }}
+                {{ range $index, $page := .Site.Taxonomies.categories.freizeit }}
                     {{ if and (gt $index 0) (eq (mod $index 3) 0)}}
             </div>
             <div class="row">

@@ -4,20 +4,10 @@
 
 * Freizeit
   * Bild + Text Radfahren
-  * Bild Wassersport
-  * Unterseiten für Wandern, Radfahren, Geocaching, Wassersport
-  * Wandern:
-    * Einzelne Routen von Outdooractive
   * Radfahren:
       * Einzelne Routen von Outdooractive
-  * Geocaching:
-      * gucken was man einbinden kann
-  * Wassersport:
-      * Liste von alter Seite übernehmen
   
 * Sehenswürdigkeiten
-  * Kohlenmeiler
-  * Rathaus
   * Pluggen Platz
   * Kapellen
   * Odacker
@@ -39,9 +29,10 @@
   * ???
   
 * Gastgeber (Data)
-* Anreise
-* Kontakt
-* Impressum
+  * Anreise
+  * Kontakt
+  * Impressum
+  * Map mit Standorten
 
 ## Sonstiges
 * i18n

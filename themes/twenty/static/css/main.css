@@ -1806,9 +1806,18 @@ input[type="email"] {
 	margin: 0 0 2em 0;
 }
 
+.\36 u .image.featured {
+	max-height: 370px;
+	overflow: hidden;
+}
+
 .image.featured img {
 	display: block;
 	width: 100%;
+}
+
+figcaption p {
+	font-size: 0.7em;
 }
 
 /* Icon */
@@ -3271,4 +3280,10 @@ figure.right {
 .accomodation label {
 	font-weight: 400;
 	color: #999;
+}
+
+span.quote {
+	display: block;
+	font-size: 0.7em;
+	color: #b3b3b3;
 }

@@ -10,7 +10,7 @@ install:
 script:
   # replace baseurl for gh-pages
   - sed -i -E 's/baseurl = \".+\"/baseurl = "https:\/\/peuter.github.io\/hirschberg-touristik\/"/g' config.toml
-  - ./utils/hugo
+  - ./bin/hugo
 
 # Deploy to GitHub pages
 deploy:
