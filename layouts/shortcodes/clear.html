@@ -1,1 +1,2 @@
-<div style="clear: both"/>
+{{ $value := default "both" (.Get 0) }}
+<div style="clear: {{ $value }}"></div>

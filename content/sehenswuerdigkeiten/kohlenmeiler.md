@@ -2,7 +2,7 @@
 date = "2017-07-15T09:56:38+02:00"
 title = "Kohlenmeiler"
 description = "Holzkohleherstellung nach alter Väter Sitte."
-teaser = "Eine historische Meilerplatte, die bereits vor über 100 Jahren genutzt wurde, dient heute den SGV-Hobbyköhlern, alle 4 Jahre, zum Abbrennen ihrer Meiler."
+teaser = "1974, kurz vor der kommunalen Neuordnung, wurde auf dem Gelände, einer alten Kohlenmeilerstätte, auf Initiative des damaligen Bürgermeisters der Stadt Hirschberg und SGV-Vorsitzenden Paul H. Wellmanns ein Schaumeiler, als ein technisches Kulturdenkmal."
 banner = "images/poi/meiler1.jpg"
 keywords = ["Sehenswürdigkeit", "Kohlenmeiler", "Rathaus", "Pluggen Platz"]
 [menu.main]

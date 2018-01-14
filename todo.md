@@ -8,9 +8,6 @@
       * Einzelne Routen von Outdooractive
   
 * Sehenswürdigkeiten
-  * Pluggen Platz
-  * Kapellen
-  * Odacker
   * Hexengedenkstätte
   * ???
   
@@ -38,3 +35,4 @@
 * i18n
 * l10n
 * Sitemap
+* Bilder

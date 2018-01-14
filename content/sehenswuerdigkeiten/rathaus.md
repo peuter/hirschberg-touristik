@@ -10,8 +10,8 @@ keywords = ["Sehenswürdigkeit", "Rathaus", "Jadgstube"]
 [menu.main]
     parent = "poi"    
 categories = ["sehenswuerdigkeiten"]
-categories_weight = -100
-weight = -100
+categories_weight = -90
+weight = -90
 +++
 
 ## Das Alte Hirschberger Rathaus
