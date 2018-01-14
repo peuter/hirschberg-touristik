@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://peuter.github.io/hirschberg-touristik/en/freizeit/wandern/</loc>
+    <lastmod>2017-07-15T09:56:38+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://peuter.github.io/hirschberg-touristik/freizeit/wandern/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://peuter.github.io/hirschberg-touristik/en/freizeit/wandern/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://peuter.github.io/hirschberg-touristik/en/freizeit/</loc>
+    <lastmod>2017-07-15T09:56:38+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://peuter.github.io/hirschberg-touristik/freizeit/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://peuter.github.io/hirschberg-touristik/en/freizeit/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://peuter.github.io/hirschberg-touristik/en/categories/</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://peuter.github.io/hirschberg-touristik/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://peuter.github.io/hirschberg-touristik/en/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://peuter.github.io/hirschberg-touristik/en/categories/freizeit/</loc>
+    <lastmod>2017-07-15T09:56:38+02:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://peuter.github.io/hirschberg-touristik/categories/freizeit/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://peuter.github.io/hirschberg-touristik/en/categories/freizeit/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://peuter.github.io/hirschberg-touristik/en/</loc>
+    <lastmod>2017-07-15T09:56:38+02:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://peuter.github.io/hirschberg-touristik/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://peuter.github.io/hirschberg-touristik/en/"
+                />
+  </url>
+  
+</urlset>

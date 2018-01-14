@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Leisure activities in and around Hirschberg on Vacation in Hirschberg</title>
+    <link>https://peuter.github.io/hirschberg-touristik/en/freizeit/</link>
+    <description>Recent content in Leisure activities in and around Hirschberg on Vacation in Hirschberg</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>de-de</language>
+    <copyright>Copyright &amp;copy; 2017-{year}, Vereinsring Hirschberg e.V.</copyright>
+    <lastBuildDate>Sat, 15 Jul 2017 09:56:38 +0200</lastBuildDate>
+    
+	<atom:link href="https://peuter.github.io/hirschberg-touristik/en/freizeit/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Hiking</title>
+      <link>https://peuter.github.io/hirschberg-touristik/en/freizeit/wandern/</link>
+      <pubDate>Sat, 15 Jul 2017 09:56:38 +0200</pubDate>
+      
+      <guid>https://peuter.github.io/hirschberg-touristik/en/freizeit/wandern/</guid>
+      <description>Hiking in and around Hirschberg Due to its location in the heart of the Arnsberg forest, Hirschberg offers numerous hiking opportunities. In addition to the Sauerland Waldroute, there are 192km of marked hiking trails around Hirschberg.</description>
+    </item>
+    
+  </channel>
+</rss>

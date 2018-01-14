@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Gastgeber in Hirschberg on Urlaub in Hirschberg - natürlich im Sauerland</title>
+    <link>https://peuter.github.io/hirschberg-touristik/unterkuenfte/</link>
+    <description>Recent content in Gastgeber in Hirschberg on Urlaub in Hirschberg - natürlich im Sauerland</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>de-de</language>
+    <copyright>Copyright &amp;copy; 2017-{year}, Vereinsring Hirschberg e.V.</copyright>
+    <lastBuildDate>Sat, 15 Jul 2017 09:56:38 +0200</lastBuildDate>
+    
+	<atom:link href="https://peuter.github.io/hirschberg-touristik/unterkuenfte/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Hotels</title>
+      <link>https://peuter.github.io/hirschberg-touristik/unterkuenfte/hotels/</link>
+      <pubDate>Sat, 15 Jul 2017 09:56:38 +0200</pubDate>
+      
+      <guid>https://peuter.github.io/hirschberg-touristik/unterkuenfte/hotels/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ferienwohnungen</title>
+      <link>https://peuter.github.io/hirschberg-touristik/unterkuenfte/ferienwohnungen/</link>
+      <pubDate>Sat, 15 Jul 2017 09:56:38 +0200</pubDate>
+      
+      <guid>https://peuter.github.io/hirschberg-touristik/unterkuenfte/ferienwohnungen/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

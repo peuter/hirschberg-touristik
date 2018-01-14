@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Freizeitgestaltung in und um Hirschberg on Urlaub in Hirschberg - natürlich im Sauerland</title>
+    <link>https://peuter.github.io/hirschberg-touristik/freizeit/</link>
+    <description>Recent content in Freizeitgestaltung in und um Hirschberg on Urlaub in Hirschberg - natürlich im Sauerland</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>de-de</language>
+    <copyright>Copyright &amp;copy; 2017-{year}, Vereinsring Hirschberg e.V.</copyright>
+    <lastBuildDate>Sat, 15 Jul 2017 09:56:38 +0200</lastBuildDate>
+    
+	<atom:link href="https://peuter.github.io/hirschberg-touristik/freizeit/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Wandern</title>
+      <link>https://peuter.github.io/hirschberg-touristik/freizeit/wandern/</link>
+      <pubDate>Sat, 15 Jul 2017 09:56:38 +0200</pubDate>
+      
+      <guid>https://peuter.github.io/hirschberg-touristik/freizeit/wandern/</guid>
+      <description>Wandern in und um Hirschberg Hirschberg bietet aufgrund seiner Lage mitten im Arnsberger Wald, zahlreiche Wandermöglichkeiten. Neben der Sauerland Waldroute gibt es 192km gekennzeichnete Wanderwege rund um Hirschberg.
+Sauerland Waldroute  Als zauberhaft mystisch und immer anders, wird die Sauerland-Waldroute® beschrieben. Mit Ihrer Gesamtlänge von 240km macht Sie auch in Hirschberg halt. Ob Sie nun Hirschberg als Etappenziel oder als festen Standort für diverse Tageswanderungen nutzen, das Tor zur Waldroute mitten im Ortskern auf Pluggen Platz bietet den idealen Ausgangspunkt für beides.</description>
+    </item>
+    
+    <item>
+      <title>Wassersport</title>
+      <link>https://peuter.github.io/hirschberg-touristik/freizeit/schwimmen/</link>
+      <pubDate>Sat, 15 Jul 2017 09:56:38 +0200</pubDate>
+      
+      <guid>https://peuter.github.io/hirschberg-touristik/freizeit/schwimmen/</guid>
+      <description>var mymap = L.map(&#39;mapid&#39;).setView([ 51.430765 , 8.276776 ], 10 ); var layer = L.tileLayer(&#39;http://{s}.tile.openstreetmap.de/tiles/osmde/{z}/{x}/{y}.png&#39;, { maxZoom: 18, attribution: &#39;&amp;copy; OpenStreetMap&#39; }); layer.addTo(mymap); var markers = {}; var marker; marker = L.marker([ 51.448524 , 8.344889 ]); marker.bindPopup(&#34;Allwetterbad Warstein&#34;); marker.addTo(mymap); markers[&#34;allwetter&#34;] = marker; marker = L.marker([ 51.479004 , 8.450933 ]); marker.bindPopup(&#34;Biberbad Rüthen&#34;); marker.addTo(mymap); markers[&#34;biberbad&#34;] = marker; marker = L.marker([ 51.34982 , 8.273585 ]); marker.bindPopup(&#34;Freibad Meschede&#34;); marker.addTo(mymap); markers[&#34;meschede&#34;] = marker; marker = L.</description>
+    </item>
+    
+  </channel>
+</rss>
