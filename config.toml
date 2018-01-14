@@ -146,4 +146,4 @@ title = "Vacation in Hirschberg"
 
 [params.topbar]
     enable = true
-    text = """Hirschberg - <span class="slogan">natürlich im Sauerland</span>"""
+    text = """Hirschberg<span class="sep"> - <span><span class="slogan">natürlich im Sauerland</span>"""

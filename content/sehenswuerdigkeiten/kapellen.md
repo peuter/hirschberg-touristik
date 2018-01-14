@@ -7,10 +7,10 @@ Odacker - Keimzelle der späteren Stadt Hirschberg. Im 12. Jahrhundert wird erst
 """
 banner = "images/poi/odacker_kapelle.jpg"
 keywords = ["Sehenswürdigkeit", "Kappellen", "Odacker Kapelle", "Schulkapelle", "Bachekapelle"]
+categories = ["poi"]
+categories_weight = 20
 [menu.main]
     parent = "poi"    
-categories = ["sehenswuerdigkeiten"]
-categories_weight = 20
 weight = 20
 +++
 

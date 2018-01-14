@@ -6,12 +6,12 @@ teaser = """
 In den Jahren 2013/2014 hat die Dorfgemeinschaft diesen Platz neu gestaltet, um dem Hirschberger „Tor zur Sauerland-Waldroute“ ein attraktives und gleichzeitig an die Dorfgeschichte erinnerndes Umfeld zu geben.
 """
 banner = "images/pluggen_platz.jpg"
-keywords = ["Sehenswürdigkeit", "Pluggen Platz", "Tor zur Sauerland-Waldroute"]
-[menu.main]
-    parent = "poi"    
-categories = ["sehenswuerdigkeiten"]
+keywords = ["Sehenswürdigkeit", "Pluggen Platz", "Tor zur Sauerland-Waldroute"]  
+categories = ["poi"]
 categories_weight = 50
 weight = 50
+[menu.main]
+    parent = "poi"  
 +++
 
 ## "Pluggen Platz" - das Tor zur Sauerland-Waldroute

@@ -6,12 +6,12 @@ teaser = """
 Viel ist leider nicht vom kurkölnischen Jagdschloss Hirschberg geblieben - einzig der ehemalige Marstall, also der Pferdestall, erinnert heute noch sichtbar an die vergangene Herrlichkeit.
 """
 banner = "images/poi/marstall.jpg"
-keywords = ["Sehenswürdigkeit", "Marstall", "Hirschberger Schloss", "Jagdschloss", "Pferdestall"]
-[menu.main]
-    parent = "poi"    
-categories = ["sehenswuerdigkeiten"]
+keywords = ["Sehenswürdigkeit", "Marstall", "Hirschberger Schloss", "Jagdschloss", "Pferdestall"]   
+categories = ["poi"]
 categories_weight = 30
 weight = 30
+[menu.main]
+    parent = "poi" 
 +++
 
 ## Ehemaliger Marstall

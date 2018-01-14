@@ -6,12 +6,12 @@ teaser = """
 Im Bermecketal findet sich direkt am Weg das Stollenmundloch der stillgelegten Schiefergrube Marsfeld. Kulm-Tonschiefer Kulm-Tonschiefer des Unterkarbon finden sich in verschiedenen Vorkommen nördlich, östlich und südlich von Hirschberg.
 """
 banner = "images/poi/schieferstollen.jpg"
-keywords = ["Sehenswürdigkeit", "Schieferstollen", "Schiefergrube"]
-[menu.main]
-    parent = "poi"    
-categories = ["sehenswuerdigkeiten"]
+keywords = ["Sehenswürdigkeit", "Schieferstollen", "Schiefergrube"]  
+categories = ["poi"]
 categories_weight = 40
 weight = 40
+[menu.main]
+    parent = "poi"  
 +++
 
 ## Ehemaliger Schieferstollen

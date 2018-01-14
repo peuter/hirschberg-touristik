@@ -36,9 +36,12 @@
         </header>
 
         <section class="wrapper style2 container special-alt">
-            <div class="row 50%">
-                <div class="8u 12u(narrower)">
-                </div>
+            <h2>{{ i18n "Sehenswürdigkeiten" }}</h2>
+            <div class="row">
+                {{ range first 3 .Site.Taxonomies.categories.poi }}
+                    {{ .Render "teaser"}}
+                {{ end }}
+            </div>
             </div>
         </section>
 
@@ -57,7 +60,14 @@
 
     </article>
 
-    <section id="cta"></section>
+    <section id="cta">
+        <div class="12u(narrower)">
+            <h4>Surftipp:</h4>
+            Internetseite des Ortes Hirschberg
+            <br/>
+            <a href="http://www.hirschberg-sauerland.de/" target="_blank">www.hirschberg-sauerland.de</a>
+        </div>
+    </section>
 
     {{ partial "footer.html" . }}
 

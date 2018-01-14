@@ -7,10 +7,10 @@ Die St. Christophorus-Gemeinde Hirschbergs zählt ca. 1.400 Katholiken. Bis heut
 """
 banner = "images/poi/kirche.jpg"
 keywords = ["Sehenswürdigkeit", "Kirche", "Pfarrkirche", "St. Christophorus"]
+categories = ["poi"]
+categories_weight = 10
 [menu.main]
     parent = "poi"    
-categories = ["sehenswuerdigkeiten"]
-categories_weight = 10
 weight = 10
 +++
 

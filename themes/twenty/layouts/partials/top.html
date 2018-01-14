@@ -1,7 +1,9 @@
 {{ if .Site.Params.topbar.enable }}
     <h1 id="logo">
-        <img src="{{ .Site.BaseURL }}{{ .Site.Params.logo }}" width="40" />
-        <a href="{{ .Site.BaseURL }}">{{ .Site.Params.topbar.text | safeHTML }}</a>
+        <a href="{{ .Site.BaseURL }}">
+            <img src="{{ .Site.BaseURL }}{{ .Site.Params.logo }}" width="40" />
+            <span class="text">{{ .Site.Params.topbar.text | safeHTML }}</span>
+        </a>
     </h1>
     {{ if .IsTranslated }}
     <div style="position: absolute; left: 30%; top: 0.75em;">

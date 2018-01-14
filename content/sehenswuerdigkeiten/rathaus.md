@@ -5,13 +5,13 @@ description = "historisches Rathaus Hirschberg"
 teaser = """
 Das Rathaus wurde in den Jahren 1957-59 nach den Plänen des Architekten Viktor Mölders gebaut. Im Erdgeschoss waren die Post und der Hirschberger Bauhof untergebracht. Im 1. Obergeschoss befanden die Diensträume des Bürgermeisters, des Standesbeamten, sowie eines Sekretariats.
 """
-banner = "images/poi/rathaus.jpg"
-keywords = ["Sehenswürdigkeit", "Rathaus", "Jadgstube"]
-[menu.main]
-    parent = "poi"    
-categories = ["sehenswuerdigkeiten"]
+banner = "images/RathausUndKirche.jpg"
+keywords = ["Sehenswürdigkeit", "Rathaus", "Jadgstube"]  
+categories = ["poi"]
 categories_weight = -90
 weight = -90
+[menu.main]
+    parent = "poi"  
 +++
 
 ## Das Alte Hirschberger Rathaus
