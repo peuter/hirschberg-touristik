@@ -5,17 +5,24 @@ description = "Stollenmundloch der stillgelegten Schiefergrube Marsfeld"
 teaser = """
 In den Jahren 2013/2014 hat die Dorfgemeinschaft diesen Platz neu gestaltet, um dem Hirschberger „Tor zur Sauerland-Waldroute“ ein attraktives und gleichzeitig an die Dorfgeschichte erinnerndes Umfeld zu geben.
 """
-banner = "images/pluggen_platz.jpg"
 keywords = ["Sehenswürdigkeit", "Pluggen Platz", "Tor zur Sauerland-Waldroute"]  
 categories = ["poi"]
 categories_weight = 50
 weight = 50
 [menu.main]
     parent = "poi"  
+[[resources]]
+    src = "pluggen_platz.jpg"
+    title = "Pluggen Platz: Das Tor zur Sauerland-Waldroute"
+[resources.params]
+    banner = "true"
+[[resources]]
+    src = "plan_pluggen_platz.gif"
+    title = "Entwurfsplan von Pluggen Platz"
 +++
 
 ## "Pluggen Platz" - das Tor zur Sauerland-Waldroute
-{{< figure src="../../images/poi/plan_pluggen_platz.gif" width="350px" class="right" >}}
+{{< imgproc name="plan_pluggen_platz" command="Resize" options="350x"  class="right" >}}
 
 **In den Jahren 2013 / 2014 hat die Dorfgemeinschaft diesen Platz neu gestaltet, um dem Hirschberger „Tor zur Sauerland-Waldroute“ ein attraktives und gleichzeitig an die Dorfgeschichte erinnerndes Umfeld zu geben.**
 
@@ -23,7 +30,7 @@ Das knapp 800m² große Grundstück verdankt seine jetzige Form, wie die meisten
 
 ### Woher stammt der Name „Pluggen Platz“?
 
-{{< figure src="../../images/pluggen_platz.jpg" width="350px" class="left" >}}
+{{< imgproc name="pluggen_platz" command="Resize" options="350x"  class="left" >}}
 Besitzer dieser ehemaligen Hausstätte war vor und nach der Neuordnung 1788 Heinrich Calles, genannt „Steineken“. Dank der für die ursprünglichen Hausstätten erstellten Eigentümerchroniken besteht auch über die vorhergehende und weitere Besitzfolge Klarheit. Namensgebend war ab 1882 Familie Plugge. Die letzte Besitzerin, Maria Plugge, hat in 3. Generation das Haus gemeinsam mit ihrem Mann Johannes Dolle und ihren Kindern bis 1964 bewohnt, ehe Haus und Grundstück 1966 an die Stadt Hirschberg veräußert wurden.
 
 Nach den Plänen der Gemeinde sollte dort ein Feuerwehrgerätehaus errichtet werden. Dementsprechend wurden 1967 die Wohn- und Wirtschaftsgebäude abgerissen. Da aber die Feuerwehr einen anderen Standort fand, blieb das Grundstück lange Zeit brach liegen. Im Jahr 1975 verliert Hirschberg die 1308 verliehenen Stadtrechte und wird in die Stadt Warstein eingemeindet. Nach der kommunalen Neugliederung wird ein kleiner Ruhepark, ausgestattet mit Schachbrett und Springbrunnen, angelegt. Hirschberg sollte damit als Erholungsort weiter gestärkt werden. Die Unterhaltungskosten standen aber schon bald für die Stadt Warstein in keinem vertretbaren Verhältnis zum erhofften Nutzen. Das Wasser wurde abgestellt und der Platz weitgehend sich selbst überlassen.

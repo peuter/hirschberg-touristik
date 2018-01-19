@@ -5,22 +5,35 @@ description = "Stollenmundloch der stillgelegten Schiefergrube Marsfeld"
 teaser = """
 Im Bermecketal findet sich direkt am Weg das Stollenmundloch der stillgelegten Schiefergrube Marsfeld. Kulm-Tonschiefer Kulm-Tonschiefer des Unterkarbon finden sich in verschiedenen Vorkommen nördlich, östlich und südlich von Hirschberg.
 """
-banner = "images/poi/schieferstollen.jpg"
 keywords = ["Sehenswürdigkeit", "Schieferstollen", "Schiefergrube"]  
 categories = ["poi"]
 categories_weight = 40
 weight = 40
 [menu.main]
     parent = "poi"  
+[[resources]]
+    src = "schieferstollen.jpg"
+    title = "Im Bermecketal findet sich direkt am Weg das Stollenmundloch der stillgelegten Schiefergrube 'Marsfeld'."
+[resources.params]
+    banner = "true"
+[[resources]]
+    src = "verleihungsriss.jpg"
+    title = "Sogenannter „Verleihungsriß“ des Bergwerksfeldes „Ferdinand modo Marsfeld“ von 1858. Im kleinen Kästchen ist der „Fundpunkt Ferdinand“ hervorgehoben, heute kaum noch erkennbar am Kalvarienberg gelegen, in der Mitte des größeren Kästchens unten ist der Stollen eingezeichnet. Auch der oberhalb davon eingetragene „Alte Dachschieferbruch“ lässt sich noch heute nördlich der Bebauung des Langenbruchs im Wald finden."
+[[resources]]
+    src = "stollen_muendung.jpg"
+    title = "Mündung des Stollens in die ca. 100 qm große Abbaukammer der ehemaligen Schiefergrube."
+[[resources]]
+    src = "stollen_boden.jpg"
+    title = "An vielen Stellen in der Grube bilden sich Sickerwasseransammlungen. Die vergleichsweise geringe Tiefe der Grube führt dazu, dass Regenwasser schnell in die Grube eindringen kann."
 +++
 
 ## Ehemaliger Schieferstollen
 {{< div "float:right" >}}
 {{< div "padding-left:50px" >}}
-{{< figure src="../../images/poi/schieferstollen.jpg" width="350px" caption="Im Bermecketal findet sich direkt am Weg das Stollenmundloch der stillgelegten Schiefergrube 'Marsfeld'.">}}
-{{< figure src="../../images/poi/verleihungsriss.jpg" width="350px" caption="Sogenannter „Verleihungsriß“ des Bergwerksfeldes „Ferdinand modo Marsfeld“ von 1858. Im kleinen Kästchen ist der „Fundpunkt Ferdinand“ hervorgehoben, heute kaum noch erkennbar am Kalvarienberg gelegen, in der Mitte des größeren Kästchens unten ist der Stollen eingezeichnet. Auch der oberhalb davon eingetragene „Alte Dachschieferbruch“ lässt sich noch heute nördlich der Bebauung des Langenbruchs im Wald finden.">}}
-{{< figure src="../../images/poi/stollen_muendung.jpg" width="350px" caption="Mündung des Stollens in die ca. 100 qm große Abbaukammer der ehemaligen Schiefergrube.">}}
-{{< figure src="../../images/poi/stollen_boden.jpg" width="350px" caption="An vielen Stellen in der Grube bilden sich Sickerwasseransammlungen. Die vergleichsweise geringe Tiefe der Grube führt dazu, dass Regenwasser schnell in die Grube eindringen kann.">}}
+{{< imgproc name="schieferstollen" command="Resize" options="350x" >}}
+{{< imgproc name="verleihungsriss" command="Resize" options="350x" >}}
+{{< imgproc name="stollen_muendung" command="Resize" options="350x" >}}
+{{< imgproc name="stollen_boden" command="Resize" options="350x" >}}
 {{< closediv >}}
 {{< closediv >}}
 

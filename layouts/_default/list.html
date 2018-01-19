@@ -20,7 +20,13 @@
                     {{ if .Params.banner }}
                     <img src="{{ .Site.BaseURL}}{{ .Params.banner }}" alt="{{.Title}}" />
                     {{ else }}
-                    <img src="{{ .Site.BaseURL}}images/banner.jpg" alt="">
+                        {{ range .Resources.ByType "image" }}
+                            {{ if .Params.banner }}
+                            {{ $scaled := .Fill "575x370" }}
+                            <img src="{{ $scaled.RelPermalink }}" width="{{ $scaled.Width }}" height="{{ $scaled.Height }}" alt="{{$scaled.Title}}">
+                            {{ end }}
+                        {{ end }}
+                    <!--<img src="{{ .Site.BaseURL}}images/banner.jpg" alt="">-->
                     {{ end }}
                 </a>
                 <header>

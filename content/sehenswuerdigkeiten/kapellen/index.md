@@ -5,18 +5,22 @@ description = "Odacker-, Schul- und Bachekapelle"
 teaser = """
 Odacker - Keimzelle der späteren Stadt Hirschberg. Im 12. Jahrhundert wird erstmals ein "Odacher iuxta Arnesberg" erwähnt. Eine besondere Bedeutung des kleinen Ortes wird aus einer Kölner Grenzbeschreibung des 12. Jahrhunderts deutlich.
 """
-banner = "images/poi/odacker_kapelle.jpg"
 keywords = ["Sehenswürdigkeit", "Kappellen", "Odacker Kapelle", "Schulkapelle", "Bachekapelle"]
 categories = ["poi"]
 categories_weight = 20
 [menu.main]
     parent = "poi"    
 weight = 20
+[[resources]]
+    src = "odacker_kapelle.jpg"
+    title = "Odacker Kapelle"
+[resources.params]
+    banner = "true"
 +++
 
 ## Die Odacker-Kapelle
 
-{{< figure src="../../images/poi/odacker_kapelle.jpg" class="right" width="500px" caption="Odacker Kapelle">}}
+{{< imgproc name="odacker_kapelle" command="Resize" options="500x" class="right" >}}
 
 Odacker - Keimzelle der späteren Stadt Hirschberg.
 
@@ -34,7 +38,7 @@ Um 1648 wurde es erneut bezogen. Im Zuge der Säkularisation im Herzogtum Westfa
 
 ## Die ´Schulkapelle´
 
-{{< figure src="../../images/poi/schulkapelle.jpg" class="right" caption="Die Schulkapelle">}}
+{{< imgproc name="schulkapelle" command="Fit" options="300x500" caption="Die Schulkapelle" class="right" >}}
 
 1853 ließ Friedrich Baronowsky eine Kapelle erbauen, erst 60 Jahre später wurde direkt benachbart die Hirschberger Schule (heute Grundschule) errichtet.
 
@@ -47,7 +51,7 @@ Heute präsentiert sich die renovierte Kapelle wieder als echtes Schmuckstück. 
 
 ## Die Kapelle in der Bache
 
-{{< figure src="../../images/poi/bachekapelle.jpg" class="left" width="500px" caption="Die Bachekapelle">}}
+{{< imgproc name="bachekapelle" command="Resize" options="500x" caption="Die Bachekapelle" class="left" >}}
 
 Die Kapelle in der Bache gehört zum Hofgrundstück der Familie Platte. An der Abzweigung stand früher ein Wegkreuz. 1921 ließen der Müllermeister August Platte und seine Frau Maria Platte diese Kapelle zu Ehren des Heiligen Antonius von Padua errichten.
 

@@ -3,13 +3,20 @@ date = "2017-07-15T09:56:38+02:00"
 title = "Kohlenmeiler"
 description = "Holzkohleherstellung nach alter Väter Sitte."
 teaser = "1974 wurde auf dem Gelände einer alten Kohlenmeilerstätte, auf Initiative des damaligen Bürgermeisters der Stadt Hirschberg und SGV-Vorsitzenden Paul H. Wellmanns ein Schaumeiler, als ein technisches Kulturdenkmal errichtet."
-banner = "images/poi/meiler1.jpg"
 keywords = ["Sehenswürdigkeit", "Kohlenmeiler", "Rathaus", "Pluggen Platz"]
 categories = ["poi"]
 categories_weight = -100
 weight = -100
 [menu.main]
     parent = "poi"
+[[resources]]
+    src = "koehler-neu.jpg"
+    title = "Köhler heute"
+[[resources]]
+    src = "meiler1.jpg"
+    title = "Anzünden des Meilers durch die Köhler"
+[resources.params]
+    banner = "true"
 +++
 
 ## Kohlenmeiler
@@ -31,7 +38,7 @@ Holzkohleproduktion führte zum Ende der Waldköhlerei.
 
 ### Das Wiederaufleben des alten Handwerks
 
-{{< imgproc name="koehler-neu" command="Resize" options="500x" caption="Köhler heute" class="right" >}}
+{{< imgproc name="koehler-neu" command="Resize" options="500x" class="right" >}}
 
 1974, kurz vor der kommunalen Neuordnung, wurde auf dem Gelände, einer alten Kohlenmeilerstätte, 
 auf Initiative des damaligen Bürgermeisters der Stadt Hirschberg und SGV-Vorsitzenden 

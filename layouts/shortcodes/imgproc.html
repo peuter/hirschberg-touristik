@@ -14,9 +14,14 @@
 {{ $image := .Scratch.Get "image" }}
 <figure {{ if .Get "class" }} class="{{.Get "class"}}"{{ end }}>
     <img src="{{ $image.RelPermalink }}" width="{{ $image.Width }}" height="{{ $image.Height }}">
-    {{ if $caption }}
+
     <figcaption>
-        <small>{{ $caption }}</small>
+        <p>
+        {{ if $caption }}
+            {{ $caption }}
+        {{ else }}
+            {{ $image.Title }}
+        {{end}}
+        </p>
     </figcaption>
-    {{ end }}
 </figure>

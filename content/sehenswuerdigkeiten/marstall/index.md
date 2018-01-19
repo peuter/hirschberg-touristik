@@ -5,20 +5,24 @@ description = "Marstall des ehemaligen kurkölnischen Jagdschlosses Hirschberg"
 teaser = """
 Viel ist leider nicht vom kurkölnischen Jagdschloss Hirschberg geblieben - einzig der ehemalige Marstall, also der Pferdestall, erinnert heute noch sichtbar an die vergangene Herrlichkeit.
 """
-banner = "images/poi/marstall.jpg"
 keywords = ["Sehenswürdigkeit", "Marstall", "Hirschberger Schloss", "Jagdschloss", "Pferdestall"]   
 categories = ["poi"]
 categories_weight = 30
 weight = 30
 [menu.main]
     parent = "poi" 
+[[resources]]
+    src = "marstall.jpg"
+    title = "Die Überreste des Hirschberger Schlosses, der alte Marstall"
+[resources.params]
+    banner = "true"
 +++
 
 ## Ehemaliger Marstall
 {{< div "float:right" >}}
-{{< figure src="../../images/poi/marstall.jpg" width="350px" caption="Die Überreste des Hirschberger Schlosses, der alte Marstall">}}
-{{< figure src="../../images/poi/zeichnung_schloss.jpg" width="350px" caption="Zeichnung vom Schloss">}}
-{{< figure src="../../images/poi/nachbau_tor.jpg" width="350px" caption="Nachbau des Hirschberger Tores">}}
+{{< imgproc name="marstall" command="Resize" options="350x" >}}
+{{< imgproc name="zeichnung_schloss" command="Resize" options="350x" caption="Zeichnung vom Schloss" >}}
+{{< imgproc name="nachbau_tor" command="Resize" options="350x" caption="Nachbau des Hirschberger Tores" >}}
 {{< closediv >}}
 
 Viel ist leider nicht vom kurkölnischen Jagdschloss Hirschberg geblieben - einzig der ehemalige Marstall, also der Pferdestall, erinnert heute noch sichtbar an die vergangene Herrlichkeit.

@@ -5,18 +5,22 @@ description = "St. Christophorus Pfarrkirche Hirschberg"
 teaser = """
 Die St. Christophorus-Gemeinde Hirschbergs zählt ca. 1.400 Katholiken. Bis heute bildet die Kirche den Mittelpunkt der Siedlung auf dem Berg, was zu einem weitgehend geschlossenen Ortsbild führt.
 """
-banner = "images/poi/kirche.jpg"
 keywords = ["Sehenswürdigkeit", "Kirche", "Pfarrkirche", "St. Christophorus"]
 categories = ["poi"]
 categories_weight = 10
 [menu.main]
     parent = "poi"    
 weight = 10
+[[resources]]
+    src = "kirche.jpg"
+    title = "Pfarrkirche Hirschberg"
+[resources.params]
+    banner = "true"
 +++
 
 ## St. Christophorus Hirschberg
 
-{{< figure src="../../images/poi/kirche.jpg" class="left" caption="Pfarrkirche Hirschberg">}}
+{{< imgproc name="kirche" command="Resize" options="500x" class="left" >}}
 
 Um 1308 ist die erste Kirche in Hirschberg erbaut. Ihr Pfarrpatron wurde der Hl. Christophorus.
 
