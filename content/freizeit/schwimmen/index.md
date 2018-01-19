@@ -4,7 +4,6 @@ title = "Wassersport"
 description = "Schwimmen und Wassersport in der Nähe von Hirschberg"
 keywords = ["Schwimmen", "Wassersport", "Freibad", "Allwetterbad", "Stausee", "Natur"]
 icon = "fa-anchor"
-banner = "images/moehnesee.jpg"
 teaser = """
 In der näheren Umgebung gibt es eine große Auswahl für Wasserratten.
 Angefangen von Freibädern über Allwetterbädern bis hin zu Badeseen.
@@ -15,6 +14,11 @@ weight = 4
 map = true
 [menu.main]
     parent = "freizeit"
+[[resources]]
+    src = "moehnesee.jpg"
+    title = "Möhnesee"
+[resources.params]
+    banner = "true"
 +++
 
 {{< map config="schwimmen" >}}
@@ -23,7 +27,7 @@ map = true
 
 #### Allwetterbad Warstein
 
-{{< figure src="../../images/allwetterbad.jpg" class="left" >}}
+{{< imgproc name="allwetterbad" command="Resize" options="300x" class="left" caption="Allwetterbad Warstein">}}
 
 Im Allwetterbad Warstein scheint für Wasserratten immer die Sonne. Ist es draußen ungemütlich kalt, locken 
 großzügige Badelandschaften, Sportbecken und Ruheoasen. Bei schönem Wetter empfehlen sich das große 
@@ -40,7 +44,7 @@ Und wer einfach nur genießen und faulenzen möchte? Kein Problem, jeder findet 
 
 #### Biberbad Rüthen
 
-{{< figure src="../../images/biberbad.jpg" class="left" >}}
+{{< imgproc name="biberbad" command="Resize" options="300x" class="left" caption="Biberbad Rüthen">}}
 
 Für die ganze Familie steht eine 250 m² große Strandlandschaft mit Palmen zur Verfügung. 
 Original Strandkörbe von der Nordsee, Strandliegen und Beach-Bar sorgen für maritimes Flair. 
@@ -57,7 +61,7 @@ Erleben Sie Strandfeeling im Biberbad.
 
 #### Freibad Meschede
 
-{{< figure src="../../images/freibad_meschede.jpg" class="left" >}}
+{{< imgproc name="freibad_meschede" command="Resize" options="300x" class="left" caption="Freibad Meschede">}}
 
 Der großzügige, direkt an der Ruhr gelegene, Sonnen- und Sportbereich des Freibads bietet ein 
 Außenschwimmbecken mit 50 m Sportbahnen, ein Nichtschwimmer- sowie ein Planschbecken und eine Wasserrutsche. 
@@ -74,7 +78,7 @@ Bolzplatz sowie ein Kinderpielplatz.
 
 #### Möhnesee
 
-{{< figure src="../../images/moehnesee.jpg" class="left" >}}
+{{< imgproc name="moehnesee" command="Resize" options="300x" class="left" caption="Möhnesee">}}
 
 Das Westfälische Meer, der größte Stausee in Nordrhein-Westfalen. Ein 10 km² großes Paradies für 
 Wassersportler mit 40 km Seeufer. Intakte Landschaft mit gastfreundlichen Dörfern rund um den Möhnesee.  
@@ -89,7 +93,7 @@ Erholung für jeden. Ob mit der Familie oder zu zweit, sportlich oder gemütlich
 
 #### Hennesee
 
-{{< figure src="../../images/hennesee.jpg" class="left" >}}
+{{< imgproc name="hennesee" command="Resize" options="300x" class="left" caption="Hennesee">}}
 
 Der Hennesee in Meschede bietet mit drei DLRG überwachten Badestellen genügend Platz für ein erfrischendes Bad. 
 Die Badestellen sind: Berghauser Bucht, Mielinghauser Bucht (unterhalb der Ferienhaussiedlung) und die Badestelle 
@@ -107,7 +111,7 @@ des Knaus Campingpark Hennesee am Vorstaubecken.
 
 #### Strandbad Alberssee
 
-{{< figure src="../../images/alberssee.jpg" class="left" >}}
+{{< imgproc name="alberssee" command="Resize" options="300x" class="left" caption="Alberssee">}}
 
 Sommer, Sonne, Strand und glasklares Wasser direkt vor der Haustür: Am Alberssee in Lippstadt wird jeder Tag
  zu einem vergnüglichen und entspannten Urlaubstag für die ganze Familie. Das Naherholungsgebiet rund um 
