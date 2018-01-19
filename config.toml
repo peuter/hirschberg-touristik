@@ -147,3 +147,12 @@ title = "Vacation in Hirschberg"
 [params.topbar]
     enable = true
     text = """Hirschberg<span class="sep"> - <span><span class="slogan">natürlich im Sauerland</span>"""
+
+[imaging]
+    # Default resample filter used for resizing. Default is Box,
+    # a simple and fast averaging filter appropriate for downscaling.
+    # See https://github.com/disintegration/imaging
+    resampleFilter = "box"
+
+    # Defatult JPEG quality setting. Default is 75.
+    quality = 68

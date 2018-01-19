@@ -9,14 +9,14 @@ categories = ["poi"]
 categories_weight = -100
 weight = -100
 [menu.main]
-    parent = "poi"    
+    parent = "poi"
 +++
 
 ## Kohlenmeiler
 
 ### Die Geschichte der Köhlerei
 
-{{< figure src="../../images/koehler_alt_klein.jpg" class="left" >}}
+{{< imgproc name="koehler_alt_klein" command="Resize" options="500x" caption="Köhler früher" class="left" >}}
 
 Die Holzverkohlung wurde nachweisbar seit ca. 800 n. Chr. im Sauerland betrieben und diente als 
 Brennstofflieferant für die Eisenverhüttung. Die reichen Eisenerzvorkommen und die starke Bewaldung 
@@ -31,7 +31,7 @@ Holzkohleproduktion führte zum Ende der Waldköhlerei.
 
 ### Das Wiederaufleben des alten Handwerks
 
-{{< figure src="../../images/koehler_neu.jpg" class="right" >}}
+{{< imgproc name="koehler-neu" command="Resize" options="500x" caption="Köhler heute" class="right" >}}
 
 1974, kurz vor der kommunalen Neuordnung, wurde auf dem Gelände, einer alten Kohlenmeilerstätte, 
 auf Initiative des damaligen Bürgermeisters der Stadt Hirschberg und SGV-Vorsitzenden 

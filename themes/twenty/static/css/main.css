@@ -1831,8 +1831,8 @@ input[type="email"] {
 	width: 100%;
 }
 
-figcaption p {
-	font-size: 0.7em;
+figcaption small {
+	font-size: 0.8em;
 	line-height: 1.3em;
 }
 
