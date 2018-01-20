@@ -9,7 +9,7 @@
     "rooms": "Freundliche, helle G\u00e4stezimmer, alle mit Bad oder Dusche, WC, Sat-TV und Telefon. Im kleinen Fachwerkhaus neben dem Hauptgeb\u00e4ude gibt es zwei moderne Appartements.",
     "specials": "Tagungsraum f\u00fcr 80 Personen mit Tagungstechnik. Parkplatz, Garage. Hunde erlaubt,  Kindererm\u00e4\u00dfigung: bis 5 Jahre = frei, 6-12 Jahre = 50 %, im DZ der Eltern. Kreditkarten: Eurocard, Amex, Diner\u00b4s Club, Visa, Electronic Cash.",
     "price_info": "Doppelzimmer ab 44,50 \u20ac inkl. Fr\u00fchst\u00fcck, Einzelzimmer ab 60 \u20ac inkl. Fr\u00fchst\u00fcck, Zuschlag Halbpension: 16,50 \u20ac, Zuschlag Vollpension: 33 \u20ac",
-    "image": "images/objects/cramer.jpg"
+    "image_prefix": "images/cramer"
   }, {
     "id": "2",
     "type": "1",
@@ -20,7 +20,7 @@
     "rooms": "Freundliche G\u00e4stezimmer mit DU\/WC. Zustellbett bzw. Kinderbett m\u00f6glich",
     "specials": "Idealer Ausgangspunkt f\u00fcr Wanderungen durch den Naturpark \"Arnsberger Wald\". Kleine Hunde erlaubt, Kindererm\u00e4\u00dfigung: bis 3 Jahre = 70 %, 4-11 Jahre = 30 %, im DZ der Eltern",
     "price_info": "Doppelzimmer: 29 \u20ac inkl. Fr\u00fchst\u00fcck (ab 3 Tage 26 \u20ac), Einzelzimmerzuschlag: 3 \u20ac, Zuschlag Halbpension: 9,50 \u20ac",
-    "image": "images/objects/sauerlaender_hof.jpg"
+    "image_prefix": "images/sauerlaender_hof"
   }, {
     "id": "3",
     "type": "1",
@@ -31,7 +31,15 @@
     "rooms": "Komfortable G\u00e4stezimmer mit DU\/WC und Sat-TV. Kinderbett m\u00f6glich",
     "specials": "Sonnige Terrasse mit herrlichem Panoramablick. Kindererm\u00e4\u00dfigung: bis 4 Jahre = 90 %, bis 8 Jahre = 60 %, G\u00fcltig im DZ bei 1 Vollzahler,  G\u00fcltig im 2. Zimmer",
     "price_info": "\u00dcbernachtung pro Person im Doppelzimmer mit Dusche, WC, Sat-TV und kostenlosem W-LAN und Fr\u00fchst\u00fcck. Einzel\u00fcbernachtung: 32\u20ac, ab 2 \u00dcbernachtungen: 30\u20ac, ab 3 \u00dcbernachtungen: 28\u20ac, Einzelzimmerzuschlag: 8 \u20ac,  Aufschlag f\u00fcr Halbpension pro Tag: 13\u20ac ",
-    "image": "images/objects/zum_hirsch.jpg"
+    "image_prefix": "images/zum_hirsch"
+  }, {
+    "id": "21",
+    "type": "1",
+    "contact_id": "17",
+    "title": "Gasthof-Pension Birkenhof",
+    "location": "Unsere familengeführte Pension liegt am Rande des Arnsberger Waldes. Als Ausgangspunkt für Wanderungen, Motorradtouren oder einfach zum Erholen. Genießen Sie unsere vielseitige frische Küche.",
+    "character": "Im Jahr 1996 haben wir den Birkenhof übernommen und führen ihn seit dieser Zeit als reines Familienunternehmen. Wir wollen ein bisschen Heimat für jedermann. Am Rande des Arnsberger Wald gelegen bietet sich hier die Möglichkeit zu entspannen. Man kann hier wunderbar wandern ob nur ein kleiner Spaziergang oder eine Tageswanderung alles ist möglich, da wir direkt an der Sauerländer Waldroute liegen. Auch ideal für Biker da unser Haus als Ausgangspunkt für viele Touren geeignet ist.",
+    "image_prefix": "images/birkenhof-logo"
   }],
   "flats": [{
     "id": "4",
@@ -43,7 +51,7 @@
     "rooms": "",
     "specials": "Gro\u00dfe Liege- und Spielwiese mit Sitz- und Grillm\u00f6glichkeit. Idealer Ausgangsort f\u00fcr Wanderungen und Radtouren. Reitanlage 5 Min., Bilsteinh\u00f6hle-Wildpark 3 km, M\u00f6hnesee 13 km, Besichtigung der Warsteiner Brauerei. Bettw\u00e4sche, Hand- und K\u00fcchent\u00fccher inklusive.",
     "price_info": "Doppelzimmer: 12,50 \u20ac pro Person\/Nacht (15 \u20ac bei weniger als 3 \u00dcbernachtungen)",
-    "image": "images/objects/boeckeler.jpg"
+    "image_prefix": "images/boeckeler"
   }, {
     "id": "8",
     "type": "3",
@@ -54,7 +62,7 @@
     "rooms": "",
     "specials": "Terrasse, Liegewiese, Parkplatz am Haus. Kleine aktive Landwirtschaft mit Tieren. Viel Platz und Spielm\u00f6glichkeiten f\u00fcr Kinder (Fu\u00dfballkicker, Tischtennisplatte, Kettcar u.s.w.)",
     "price_info": "175 - 294 \u20ac pro Woche",
-    "image": "images/objects/rasch.jpg"
+    "image_prefix": "images/rasch"
   }, {
     "id": "9",
     "type": "3",
@@ -65,7 +73,7 @@
     "rooms": "",
     "specials": "Bettw\u00e4sche vorhanden. Tiere sind erw\u00fcnscht. Auf Wunsch werden den G\u00e4sten gef\u00fchrte Wanderungen angeboten. ",
     "price_info": "25 \u20ac pro Tag, 175 \u20ac pro Woche",
-    "image": "images/objects/rebbert.jpg"
+    "image_prefix": "images/rebbert"
   }, {
     "id": "13",
     "type": "3",
@@ -116,7 +124,7 @@
     "rooms": null,
     "specials": "Terrasse, Liegewiese, Grillplatz. Parkplatz f\u00fcr Pkw. In direkter N\u00e4he zum Ortskern und damit zu den Gesch\u00e4ften im Ort. Im und am Haus absolute Ruhe. Idealer Ausgangsort f\u00fcr Wanderungen. Bettw\u00e4sche inkl.",
     "price_info": "238-336 \u20ac pro Woche",
-    "image": "images/objects/moesch.jpg"
+    "image_prefix": "images/moesch"
   }, {
     "id": "20",
     "type": "3",
@@ -127,7 +135,7 @@
     "rooms": null,
     "specials": "Terrasse, Liegewiese, Grillplatz. Parkplatz f\u00fcr Pkw. In direkter N\u00e4he zum Ortskern und damit zu den Gesch\u00e4ften im Ort. Im und am Haus absolute Ruhe. Idealer Ausgangsort f\u00fcr Wanderungen. Bettw\u00e4sche inkl.",
     "price_info": "238-336 \u20ac pro Woche",
-    "image": "images/objects/moesch.jpg"
+    "image_prefix": "images/moesch"
   }],
   "contacts": {
     "1": {
@@ -369,6 +377,21 @@
       "fax": "02902-774341",
       "email_address": "phoenix-hoff@t-online.de",
       "web_address": null
+    },
+    "17": {
+      "company_name": "Gasthof-Pension Birkenhoff",
+      "contact_salutation": "Familie",
+      "contact_firstname": "",
+      "contact_lastname": "Toupal",
+      "street": "Bermecke",
+      "house_number": "1",
+      "zip": "59581",
+      "city": "Warstein-Hirschberg",
+      "phone": "02902-97780",
+      "mobile": null,
+      "fax": "02902-51861",
+      "email_address": "kontakt@birkenhof-warstein.de",
+      "web_address": "http://www.birkenhof-warstein.de/"
     }
   }
 }

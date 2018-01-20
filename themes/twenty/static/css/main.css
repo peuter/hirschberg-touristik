@@ -3282,7 +3282,7 @@ figure.right {
 	clear: both;
 }
 .nopad {
-	padding: 0;
+	padding: 0 !important;
 }
 .invert-pad {
 	padding: 0 0 50px 50px;

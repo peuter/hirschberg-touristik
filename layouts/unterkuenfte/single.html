@@ -5,6 +5,7 @@
 {{ define "main" }}
 <section class="wrapper style4 container">
     <div class="row">
+        {{ $resources := .Resources }}
         {{ $data := (index .Site.Data .Site.Language.Lang).accomodations }}
         {{ $items := index $data .Page.Params.dataCategory }}
         {{ range $i, $entry := $items }}
@@ -15,20 +16,38 @@
                 <header>
                     <h3>{{ .title }}</a></h3>
                 </header>
+                {{if .location}}
                 <label>{{ i18n "Lage" }}</label>
                 <p class="intro">{{ .location }}</p>
+                {{end}}
+                {{ if .character }}
                 <label>{{ i18n "Hauscharakter" }}</label>
                 <p class="intro">{{ .character }}</p>
+                {{end}}
+                {{if .rooms}}
                 <label>{{ i18n "Zimmer" }}</label>
                 <p class="intro">{{ .rooms }}</p>
+                {{end}}
+                {{if .specials}}
                 <label>{{ i18n "Besonderheiten" }}</label>
                 <p class="intro">{{ .specials }}</p>
+                {{end}}
+                {{ if .price_info }}
                 <label>{{ i18n "Preise" }}</label>
                 <p class="intro">{{ .price_info }}</p>
+                {{end}}
             </section>
         </div>
         <div class="4u 12u(narrower)">
-            {{ if .image }}
+            {{ if .image_prefix }}
+                {{ $image := $resources.GetByPrefix .image_prefix }}
+                {{ if $image }}
+                    {{ $scaled := $image.Fit "200x200" }}
+                    <img src="{{ $scaled.RelPermalink }}" width="{{ $scaled.Width }}" height="{{ $scaled.Height }}" alt="{{$scaled.Title}}">
+                {{ else }}
+                    {{ .image_prefix }}
+                {{end}}
+            {{ else if .image }}
                 <img src="{{ $.Site.BaseURL }}{{ .image }}"/>
             {{ end }}
             <section class="contact">
