@@ -15,8 +15,8 @@ Auf dieser Seite finden Sie einige Hinweise und Tipps zur Freizeitgestaltung wä
 
 {{< div "float:right" >}}
     {{< div "padding-left:50px" >}}
-        {{< figure src="../../images/poi/fuehrungen_risse1.jpg" width="300px" caption="Günter Risse erläutert einer Gruppe auf dem Hirschberger Kirchplatz Wissenswerten zum Thema Hirschberg" >}}
-        {{< figure src="../../images/poi/fuehrungen_risse2.jpg" width="300px" caption="Ortsbesichtigung mit Günter Risse vor dem Pfarrheim" >}}
+        {{< figure src="../images/poi/fuehrungen_risse1.jpg" width="300px" caption="Günter Risse erläutert einer Gruppe auf dem Hirschberger Kirchplatz Wissenswerten zum Thema Hirschberg" >}}
+        {{< figure src="../images/poi/fuehrungen_risse2.jpg" width="300px" caption="Ortsbesichtigung mit Günter Risse vor dem Pfarrheim" >}}
     {{< closediv >}}
 {{< closediv >}}
 
