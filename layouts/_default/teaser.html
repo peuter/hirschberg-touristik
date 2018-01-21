@@ -1,12 +1,17 @@
 <div class="4u 12u(narrower)">
 
     <section>
-        {{if .Page.Params.Icon}}
+    {{if .Page.Params.Icon}}
         <a href='{{ .Page.RelPermalink }}' style="color: inherit;"><span class="icon featured {{ .Page.Params.Icon }}"></span></a>
-        {{else if .Page.Params.Banner}}
-        <div class="image feature" style="background-image: url('{{ .Page.Params.Banner }}'); background-position:center; background-repeat: no-repeat; height: 300px;">
+    {{else}}
+      {{ range .Resources.ByType "image" }}
+        {{ if .Params.banner }}
+          {{ $scaled := .Fill "366x300" }}
+        <div class="image feature" style="background-image: url('{{ $scaled.RelPermalink }}'); background-position:center; background-repeat: no-repeat; height: 300px;">
         </div>
-        {{end}}
+        {{ end }}
+      {{ end }}
+    {{end}}
         <header>
             <h3><!--[--><a href='{{ .Page.RelPermalink }}'>{{ .Page.Title }}</a><!--]--></h3>
         </header>

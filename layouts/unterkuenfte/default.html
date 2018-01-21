@@ -1,0 +1,31 @@
+{{ define "banner" }}
+{{ $bannerBg := "images/hirschberg-panorama1.jpg" }}
+{{ if .Page.Params.bannerBackground }}
+    {{ $bannerBg := .Page.Params.bannerBackground }}
+{{ end }}
+<section id="banner" style="background-image: url('{{ .Site.BaseURL }}css/images/light-bl.svg'), url('{{ .Site.BaseURL }}css/images/light-br.svg'), url('{{ .Site.BaseURL }}css/images/overlay.png'), url('{{ .Site.BaseURL }}{{ $bannerBg }}')">
+    <div class="inner">
+
+        <header>
+            <h2>{{ .Page.Params.title }}</h2>
+        </header>
+        <p>
+            {{ .Page.Params.description }}
+        </p>
+
+    </div>
+</section>
+{{ end }}
+{{ define "main" }}
+<section class="wrapper style3 container">
+    <div class="row">
+        <div class="12u">
+            <section>
+                {{ .Content }}
+            </section>
+        </div>
+    </div>
+</section>
+{{ end }}
+{{ define "additional" }}
+{{ end }}
