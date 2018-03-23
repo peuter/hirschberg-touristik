@@ -6,7 +6,8 @@ keywords = ["Radfahren", "biken", "radeln", "Freizeit", "Wald", "Natur"]
 banner = "images/SGV-Radtour.jpg"
 icon = "fa-bicycle"
 teaser = """
-Hirschberg verfügt über ein umfangreiches Radwegenetz
+Radfahrer aller Alters- und Fitnessklassen finden hier optimale Bedingungen, um ihrem Sport nachgehen zu können. 
+Ein gut ausgebautes Radwegenetz wird ergänzt durch unzählige befestige Feld- und Waldwege.
 """
 categories = ["freizeit"]
 categories_weight = 2
