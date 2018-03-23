@@ -52,6 +52,8 @@ und den Festbällen am Abend erleben.
 
 ## Köhlerwochen - Altes Handwerk live erleben
 
+{{< imgproc name="koehler" command="Resize" options="200x" class="left" caption=" ">}}
+
 Alle paar Jahre lassen die Hobbyköhler der SGV-Abteilung Hirschberg, das alte Handwerk der Köhlerei wieder aufleben. 
 Während des 14-tägigen Festprogramms können Sie die Herstellung handgemachter, hochwertiger Buchenholzkohle miterleben. 
 Dazu gibt es jeden Tag ein interessantes Rahmenprogramm und natürlich haben Sie auch die Möglichkeit 
@@ -67,6 +69,8 @@ nach der Öffnung der Meiler gegen Ende der Festwochen original	Hirschberger Hol
 {{< /surftip >}}
 
 ## Romantischer Weihnachtsmarkt - Überregional bekannt
+
+{{< imgproc name="weihnacht" command="Resize" options="200x" class="right" caption=" ">}}
 
 Der historische Marktplatz Hirschbergs bietet mit seinen weihnachtlich beleuchteten Fachwerkhäusern 
 eine malerische Kulisse für diesen Weihnachtsmarkt-Klassiker.

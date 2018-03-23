@@ -1,4 +1,4 @@
-{{ $original := .Page.Resources.GetByPrefix (.Get "name") }}
+{{ $original := .Page.Resources.GetMatch (printf "%s.*" (.Get "name")) }}
 {{ $command := .Get "command" }}
 {{ $options := .Get "options" }}
 {{ $caption := .Get "caption" }}

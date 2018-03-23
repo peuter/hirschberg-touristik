@@ -1,0 +1,16 @@
+{
+  "tours": [
+    {
+      "name": "Hirschberg-Loermecketurm-Runde",
+      "tid": 100275343
+    },
+    {
+      "name": "Hirschberg-Moehnesee-Rundkurs",
+      "tid": 100275513
+    },
+    {
+      "name": "Kleine-Hirschbergrunde",
+      "tid": 100277527
+    }
+  ]
+}

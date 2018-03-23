@@ -11,24 +11,7 @@
   * Hexengedenkstätte
   * ???
   
-* Feiern
-  * Karneval
-  * Schützenfest
-  * Köhlerwochen
-  * Weihnachtsmarkt
-
-* Nahziele
-  * Bilsteinhöhle
-  * Lörmecketurm
-  * Warsteiner Brauerei
-  * Stadtkern Soest
-  * Fort Fun
-  * ???
-  
-* Gastgeber (Data)
-  * Anreise
-  * Kontakt
-  * Impressum
+* Gastgeber
   * Map mit Standorten
 
 ## Sonstiges
