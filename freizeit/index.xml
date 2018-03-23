@@ -6,7 +6,6 @@
     <description>Recent content in Freizeitgestaltung in und um Hirschberg on Urlaub in Hirschberg - natürlich im Sauerland</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>de-de</language>
-    <copyright>Copyright &amp;copy; 2017-{year}, Vereinsring Hirschberg e.V.</copyright>
     <lastBuildDate>Sat, 15 Jul 2017 09:56:38 +0200</lastBuildDate>
     
 	<atom:link href="https://peuter.github.io/hirschberg-touristik/freizeit/index.xml" rel="self" type="application/rss+xml" />
@@ -20,6 +19,15 @@
       <guid>https://peuter.github.io/hirschberg-touristik/freizeit/wandern/</guid>
       <description>Wandern in und um Hirschberg Hirschberg bietet aufgrund seiner Lage mitten im Arnsberger Wald, zahlreiche Wandermöglichkeiten. Neben der Sauerland Waldroute gibt es 192km gekennzeichnete Wanderwege rund um Hirschberg.
 Sauerland Waldroute  Als zauberhaft mystisch und immer anders, wird die Sauerland-Waldroute® beschrieben. Mit Ihrer Gesamtlänge von 240km macht Sie auch in Hirschberg halt. Ob Sie nun Hirschberg als Etappenziel oder als festen Standort für diverse Tageswanderungen nutzen, das Tor zur Waldroute mitten im Ortskern auf Pluggen Platz bietet den idealen Ausgangspunkt für beides.</description>
+    </item>
+    
+    <item>
+      <title>Radfahren</title>
+      <link>https://peuter.github.io/hirschberg-touristik/freizeit/radfahren/</link>
+      <pubDate>Sat, 15 Jul 2017 09:56:38 +0200</pubDate>
+      
+      <guid>https://peuter.github.io/hirschberg-touristik/freizeit/radfahren/</guid>
+      <description>Radfahren in und um Hirschberg Auch wenn der Ortsname Hirsch-&amp;ldquo;berg&amp;rdquo; etwas anderes suggeriert, finden Radfahrer aller Alters- und Fitnessklassen hier optimale Bedingungen, um ihrem Sport nachgehen zu können. Ein gut ausgebautes Radwegenetz wird ergänzt durch unzählige befestige Feld- und Waldwege. Ob Sie nun einen gemütlichen Familienausflug mit dem Rad zu einer der zahlreichen Sehenswürdigkeiten machen, oder auf den Spuren eines Radprofis die 33%ige Steigung der Hirschberger Wand erklimmen möchten, eine malerische Umgebung ist Ihnen in beiden Fällen garantiert.</description>
     </item>
     
     <item>

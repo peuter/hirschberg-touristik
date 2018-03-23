@@ -6,7 +6,6 @@
     <description>Recent content on Urlaub in Hirschberg - natürlich im Sauerland</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>de-de</language>
-    <copyright>Copyright &amp;copy; 2017-{year}, Vereinsring Hirschberg e.V.</copyright>
     <lastBuildDate>Sat, 15 Jul 2017 09:56:38 +0200</lastBuildDate>
     
 	<atom:link href="https://peuter.github.io/hirschberg-touristik/index.xml" rel="self" type="application/rss+xml" />
@@ -57,6 +56,15 @@ Nach der kommunalen Neugliederung im Jahre 1975 wurde das Rathaus von der Politi
       
       <guid>https://peuter.github.io/hirschberg-touristik/unterkuenfte/ferienwohnungen/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Radfahren</title>
+      <link>https://peuter.github.io/hirschberg-touristik/freizeit/radfahren/</link>
+      <pubDate>Sat, 15 Jul 2017 09:56:38 +0200</pubDate>
+      
+      <guid>https://peuter.github.io/hirschberg-touristik/freizeit/radfahren/</guid>
+      <description>Radfahren in und um Hirschberg Auch wenn der Ortsname Hirsch-&amp;ldquo;berg&amp;rdquo; etwas anderes suggeriert, finden Radfahrer aller Alters- und Fitnessklassen hier optimale Bedingungen, um ihrem Sport nachgehen zu können. Ein gut ausgebautes Radwegenetz wird ergänzt durch unzählige befestige Feld- und Waldwege. Ob Sie nun einen gemütlichen Familienausflug mit dem Rad zu einer der zahlreichen Sehenswürdigkeiten machen, oder auf den Spuren eines Radprofis die 33%ige Steigung der Hirschberger Wand erklimmen möchten, eine malerische Umgebung ist Ihnen in beiden Fällen garantiert.</description>
     </item>
     
     <item>
@@ -126,6 +134,20 @@ Das knapp 800m² große Grundstück verdankt seine jetzige Form, wie die meisten
       <guid>https://peuter.github.io/hirschberg-touristik/sehenswuerdigkeiten/nahziele/</guid>
       <description>Bilsteinhöhlen, Wildpark und Waldlehrpfad Zwischen Warstein und Hirschberg, mitten im Wald finden Sie eine der bedeutensten Tropfstein-Schauhöhlen Deutschlands inklusive eines großen Wildparks im Warsteiner Bilsteintal.
 Wildpark Der Besuch des Wildparks ist kostenlos und ohne Voranmeldung ganztägig möglich. In den großzügig bemessenen, Natur belassenen Gehegen finden Sie Gelegenheit die vielfältige Fauna des Warsteiner Stadtwaldes in seiner natürlichen Umgebung zu beobachten. Im Wildpark können Sie folgende Tier beobachten: Sikawild, Wildschwein, Luchs, Fuchs, Damwild, Rotwild, Steinmarder und Waschbär.</description>
+    </item>
+    
+    <item>
+      <title>Impressum</title>
+      <link>https://peuter.github.io/hirschberg-touristik/imprint/</link>
+      <pubDate>Sat, 15 Jul 2017 09:56:38 +0200</pubDate>
+      
+      <guid>https://peuter.github.io/hirschberg-touristik/imprint/</guid>
+      <description>Impressum Verantwortlich Vereinsring Hirschberg e.V. Burgstraße 31 59581 Warstein-Hirschberg
+Ansprechpartnerin für touristische Themen: Doris Baronowsky E-Mail: info@hirschberg-touristik.de
+Registereintrag: Eintragung im Vereinsregister.  Registergericht: Arnsberg  Registernummer: VR 80306
+Gestaltung und Redaktion: tobra IT Solutions Burgstraße 31 59581 Warstein-Hirschberg E-Mail: webmaster@hirschberg-touristik.de https://www.to-bra.de
+Streitschlichtung Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.
+Haftung für Inhalte Als Diensteanbieter sind wir gemäß § 7 Abs.1 TMG für eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich.</description>
     </item>
     
     <item>
