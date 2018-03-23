@@ -87,3 +87,6 @@
 
 - id: "Surftip"
   translation: "Surftip"
+
+- id: imprintTitle
+  translation: "Imprint"

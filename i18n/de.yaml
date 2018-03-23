@@ -120,3 +120,6 @@
 
 - id: "E-Mail"
   translation: "E-Mail"
+
+- id: imprintTitle
+  translation: "Impressum"

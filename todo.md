@@ -2,11 +2,6 @@
 
 ## Inhalt
 
-* Freizeit
-  * Bild + Text Radfahren
-  * Radfahren:
-      * Einzelne Routen von Outdooractive
-  
 * Sehenswürdigkeiten
   * Hexengedenkstätte
   * ???
@@ -19,5 +14,4 @@
 * l10n
 * Sitemap
 * Bilder
-* Impressum
 * Kontaktformular

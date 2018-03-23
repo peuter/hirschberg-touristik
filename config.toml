@@ -129,6 +129,7 @@ title = "Vacation in Hirschberg"
 
     about_us = "Vereinsring Hirschberg e.V."
     copyright = "Copyright &copy; 2017-{year}, Vereinsring Hirschberg e.V."
+    imprint = true
 
     # Format dates with Go's time formatting
     date_format = "2. Januar 2006"
