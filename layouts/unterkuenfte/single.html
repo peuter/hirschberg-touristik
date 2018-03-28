@@ -40,7 +40,7 @@
         </div>
         <div class="4u 12u(narrower)">
             {{ if .image_prefix }}
-                {{ $image := $resources.GetMatch .image_prefix }}
+                {{ $image := $resources.GetMatch (printf "%s.*" .image_prefix) }}
                 {{ if $image }}
                     {{ $scaled := $image.Fit "200x200" }}
                     <img src="{{ $scaled.RelPermalink }}" width="{{ $scaled.Width }}" height="{{ $scaled.Height }}" alt="{{$scaled.Title}}">
