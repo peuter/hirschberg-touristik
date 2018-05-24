@@ -123,3 +123,6 @@
 
 - id: imprintTitle
   translation: "Impressum"
+
+- id: datenschutzTitle
+  translation: "Datenschutz"

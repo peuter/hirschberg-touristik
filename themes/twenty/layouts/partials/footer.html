@@ -16,6 +16,9 @@
         {{ if isset .Site.Params "imprint" }}
         <li><a href="{{ relref . "imprint.md" }}">{{i18n "imprintTitle"}}</a></li>
         {{ end }}
+        {{ if isset .Site.Params "datenschutz" }}
+        <li><a href="{{ relref . "datenschutz.md" }}">{{i18n "datenschutzTitle"}}</a></li>
+        {{ end }}
         <li>{{ i18n "templateBy" }} <a href="https://html5up.net/twenty">HTML5 UP</a>.
             {{ i18n "portedBy" }} <a href="https://www.to-bra.de">to-bra IT Solutions</a></li>
     </ul>
