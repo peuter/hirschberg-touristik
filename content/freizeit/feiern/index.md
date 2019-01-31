@@ -28,7 +28,7 @@ wird das neue Hirschberger Prinzenpaar proklamiert.
 
 * Weiberfastnacht: Party in der Schützenhalle
 * Tag vor Rosenmontag: Kappensitzung inkl. Prinzenproklamation
-* Rosenmontag: Kinderkarneval in der Schützenhalle
+* Rosenmontag: Teilnahme am Rosenmontagsumzug in Warstein
 
 {{< surftip link="http://www.kg-hirschberg.de/" >}}
  Internetseite der Karnevalsgesellschaft Hirschberg e.V.

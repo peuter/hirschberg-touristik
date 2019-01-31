@@ -41,17 +41,6 @@ An den Wänden des Treppenhauses findet man ca 800 Porträtfotos von Hirschberge
 
 Im 2. Obergeschoss des Rathauses befindet sich noch eine Einliegerwohnung. Somit ist das Haus auch nach seiner Nutzung als Rathaus noch ein wichtiger Bestandteil Hirschbergs. Durch die Nutzung als Ausstellung der Hirschberger Geschichte, Nutzung von Vereinen und Standesamt kann man es als eines der meist genutzten öffentlichen Gebäude Hirschbergs bezeichnen.
 
-### Jagdstube
-
-Durch seine Lage mitten im Arnsberger Wald war Hirschberg schon immer Eng mit der Jagd verbunden. Das ehemalige Hirschberger Schloss diente den Kurfürsten und Erzbischöfen von Köln als Jagdschloss. Der SGV hat im Hirschberger Rathaus 1981 ein Jagdmuseum eingerichtet. Dort können Sie diverse Jagdtrophäen und Präparate der einheimischen Tierwelt betrachten. Eine Besichtigung ist nach Vereinbarung möglich:
-
-
-Günter Risse{{< br >}}
-Ballplatz 7{{< br >}}
-59581 Warstein-Hirschberg{{< br >}}
-Telefon: 02902 3904{{< br >}}
-Guenter-Risse@t-online.de
-
 ### Stadt- & Schlossmodelle
 
 {{< imgproc name="schlossmodel" command="Resize" options="300x" class="right" caption="Modell des Hirschberger Schlosses" >}}
