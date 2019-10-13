@@ -8,7 +8,7 @@ aliases = [ "de/impressum" ]
 
 ### Verantwortlich
 Vereinsring Hirschberg e.V.{{< br >}}
-Burgstraße 31{{< br >}}
+Clemens-August-Str. 18{{< br >}}
 59581 Warstein-Hirschberg{{< br >}}
 
 Ansprechpartnerin für touristische Themen:{{< br >}}
