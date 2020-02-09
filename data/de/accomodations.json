@@ -8,7 +8,7 @@
     "character": "In der alten Wirtsstube ist der unverwechselbare Charakter des Hauses bewahrt. Urgem\u00fctlichkeit findet man im Kaminzimmer sowie im Christophorus-Saal. Vielf\u00e4ltige K\u00fcche feiner und deftiger Speisen. Bekannt gut sind die delikaten Wildgerichte und die frischen Fischspezialit\u00e4ten.",
     "rooms": "Freundliche, helle G\u00e4stezimmer, alle mit Bad oder Dusche, WC, Sat-TV und Telefon. Im kleinen Fachwerkhaus neben dem Hauptgeb\u00e4ude gibt es zwei moderne Appartements.",
     "specials": "Tagungsraum f\u00fcr 80 Personen mit Tagungstechnik. Parkplatz, Garage. Hunde erlaubt,  Kindererm\u00e4\u00dfigung: bis 5 Jahre = frei, 6-12 Jahre = 50 %, im DZ der Eltern. Kreditkarten: Eurocard, Amex, Diner\u00b4s Club, Visa, Electronic Cash.",
-    "price_info": "Doppelzimmer ab 44,50 \u20ac inkl. Fr\u00fchst\u00fcck, Einzelzimmer ab 60 \u20ac inkl. Fr\u00fchst\u00fcck, Zuschlag Halbpension: 16,50 \u20ac, Zuschlag Vollpension: 33 \u20ac",
+    "price_info": "Aktuelle Preise finden Sie auf der Homepage www.landhotel-cramer.de",
     "image_prefix": "images/cramer"
   }, {
     "id": "2",
@@ -30,7 +30,7 @@
     "character": "Famili\u00e4r gef\u00fchrter Gasthof mit rustikaler Schankwirtschaft. Die gem\u00fctlichen Gastr\u00e4ume vermitteln Behaglichkeit und angenehme Atmosph\u00e4re. Hier werden gutb\u00fcrgerliche Speisen und gepflegte Getr\u00e4nke serviert. Aufenthaltsraum mit Sat-TV und Balkon. Tagungsraum f\u00fcr 45 Personen",
     "rooms": "Komfortable G\u00e4stezimmer mit DU\/WC und Sat-TV. Kinderbett m\u00f6glich",
     "specials": "Sonnige Terrasse mit herrlichem Panoramablick. Kindererm\u00e4\u00dfigung: bis 4 Jahre = 90 %, bis 8 Jahre = 60 %, G\u00fcltig im DZ bei 1 Vollzahler,  G\u00fcltig im 2. Zimmer",
-    "price_info": "\u00dcbernachtung pro Person im Doppelzimmer mit Dusche, WC, Sat-TV und kostenlosem W-LAN und Fr\u00fchst\u00fcck. Einzel\u00fcbernachtung: 32\u20ac, ab 2 \u00dcbernachtungen: 30\u20ac, ab 3 \u00dcbernachtungen: 28\u20ac, Einzelzimmerzuschlag: 8 \u20ac,  Aufschlag f\u00fcr Halbpension pro Tag: 13\u20ac ",
+    "price_info": "Aktuelle Preise finden Sie auf der Homepage www.hirsch-hirschberg.de",
     "image_prefix": "images/zum_hirsch"
   }, {
     "id": "21",
@@ -131,7 +131,7 @@
       "mobile": "",
       "fax": "02902-988260",
       "email_address": "info@landhotel-cramer.de",
-      "web_address": "http:\/\/www.landhotel-cramer.de"
+      "web_address": "https:\/\/www.landhotel-cramer.de"
     },
     "2": {
       "company_name": "Sauerl\u00e4nder Hof",
@@ -161,7 +161,7 @@
       "mobile": "",
       "fax": "02902-59555",
       "email_address": "info@hirsch-hirschberg.de",
-      "web_address": "http:\/\/www.zum-hirsch-hirschberg.de\/"
+      "web_address": "https:\/\/www.zum-hirsch-hirschberg.de\/"
     },
     "4": {
       "company_name": "Ferienwohnung Dieter B\u00f6ckeler",
