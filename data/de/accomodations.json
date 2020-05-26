@@ -16,10 +16,10 @@
     "contact_id": "2",
     "title": "Gasthof Sauerl\u00e4nder Hof",
     "location": "Im Ortszentrum von Hirschberg gelegen",
-    "character": "Gem\u00fctlicher Gasthof mit gutb\u00fcrgerlicher K\u00fcche. Separater Fr\u00fchst\u00fccks- und Aufenthaltsraum f\u00fcr Hausg\u00e4ste. Rustikale Gaststube. Gesellschaftsr\u00e4ume f\u00fcr Feierlichkeiten aller Art",
-    "rooms": "Freundliche G\u00e4stezimmer mit DU\/WC. Zustellbett bzw. Kinderbett m\u00f6glich",
-    "specials": "Idealer Ausgangspunkt f\u00fcr Wanderungen durch den Naturpark \"Arnsberger Wald\". Kleine Hunde erlaubt, Kindererm\u00e4\u00dfigung: bis 3 Jahre = 70 %, 4-11 Jahre = 30 %, im DZ der Eltern",
-    "price_info": "Doppelzimmer: 29 \u20ac inkl. Fr\u00fchst\u00fcck (ab 3 Tage 26 \u20ac), Einzelzimmerzuschlag: 3 \u20ac, Zuschlag Halbpension: 9,50 \u20ac",
+    "character": "Gem\u00fctlicher Gasthof mit mit rustikaler Gaststube.",
+    "rooms": "Freundliche G\u00e4stezimmer mit D\/WC, TV und W-LAN.",
+    "specials": "Idealer Ausgangspunkt f\u00fcr Wanderungen durch den Naturpark \"Arnsberger Wald\" und sonstige Ausfl\u00fcge.",
+    "price_info": "Doppelzimmer: 33 \u20ac, Einzelzimmer: 38 \u20ac. Die Preise gelten für die Übernachtung mit Frühstück pro Person und Tag.",
     "image_prefix": "images/sauerlaender_hof"
   }, {
     "id": "3",
