@@ -80,10 +80,11 @@
     "contact_id": "13",
     "title": "Ferienwohnung Anne Hirnstein",
     "location": "Die Ferienwohnung befindet sich in ruhiger Lage am Ortsrand von Hirschberg im Naturpark \"Arnsberger Wald\". In der N\u00e4he gibt es einen Spielplatz.",
-    "character": "Gem\u00fctliche helle Ferienwohnung im Erdgeschoss unseres Zweifamilienhauses f\u00fcr 2-5 Personen. Die Wohnung ist 88 m\u00b2 gro\u00df, komplett eingerichtet mit K\u00fcche, Esszimmer, 1 Wohnzimmer, 1 Schlafzimmer, Bad\/Dusche\/WC. Cd-Player, Sat-TV und DVD Player sind ebenfalls vorhanden. F\u00fcr unsere kleinen G\u00e4ste steht ein Babybett, sowie ein Hochstuhl bereit. Gute Anbindung an die Sauerland - Waldroute.",
+    "character": "Gem\u00fctliche helle Ferienwohnung im Erdgeschoss unseres Zweifamilienhauses f\u00fcr 2-5 Personen. Die Wohnung ist 88 m\u00b2 gro\u00df, komplett eingerichtet mit K\u00fcche, Esszimmer, 1 Wohnzimmer, 1 Schlafzimmer, Dusche\/WC. Cd-Player, Sat-TV und DVD Player sind ebenfalls vorhanden. F\u00fcr unsere kleinen G\u00e4ste steht ein Babybett, sowie ein Hochstuhl bereit. Gute Anbindung an die Sauerland - Waldroute.",
     "rooms": "",
-    "specials": "Liegewiese, gro\u00dfe Terrasse mit Sitz- und Grillm\u00f6glichkeit. Parkplatz f\u00fcr PKW. Idealer Ausgangsort f\u00fcr herrliche Spazierg\u00e4nge und Wanderungen. Verleih von Wanderkarten, Abholservice von Wanderungen. Auf Wunsch Fr\u00fchst\u00fccksservice buchbar. Fahrradverleih. Ideal auch f\u00fcr Kinder (Spielzeug vorhanden). Energiekosten, Bettw\u00e4sche, Hand- und K\u00fcchent\u00fccher inklusive.",
-    "price_info": "siehe Homepage"
+    "specials": "Liegewiese, gro\u00dfe Terrasse mit Sitz- und Grillm\u00f6glichkeit. Parkplatz f\u00fcr PKW. Idealer Ausgangsort f\u00fcr herrliche Spazierg\u00e4nge und Wanderungen. Verleih von Wanderkarten, Abholservice von Wanderungen. Auf Wunsch Fr\u00fchst\u00fccksservice buchbar. Verleih von 2 E-Bikes. Ideal auch f\u00fcr Kinder (Spielzeug vorhanden). Energiekosten, Bettw\u00e4sche, Hand- und K\u00fcchent\u00fccher inklusive.",
+    "price_info": "siehe Homepage",
+    "image_prefix": "images/hirnstein"
   }, {
     "id": "15",
     "type": "3",
