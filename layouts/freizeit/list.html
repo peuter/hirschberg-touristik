@@ -87,7 +87,7 @@
                 {{ end }}
                 <p>
                     {{.description}}<br/>
-                    <a href="{{.link}}">{{ if isset . "linkTitle"}}{{ .linkTitle }}{{ else }}{{ .link }}{{ end }}</a>
+                    <a href="{{.link}}" target="_blank">{{ if isset . "linkTitle"}}{{ .linkTitle }}{{ else }}{{ .link }}{{ end }}</a>
                 </p>
                 {{ end }}
             </section>

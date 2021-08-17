@@ -73,10 +73,16 @@ title = "Vacation in Hirschberg"
     identifier = "rund-ums-bier"
 
 [[menu.freizeit]]
-    name = "Planwagenfahrten"
-    url  = "/freizeit/#planwagenfahrten"
+    name = "Kino"
+    url  = "/freizeit/#kino"
     weight = 8
-    identifier = "planwagenfahrten"
+    identifier = "kino"
+
+[[menu.freizeit]]
+    name = "Bowling"
+    url  = "/freizeit/#bowling"
+    weight = 9
+    identifier = "bowling"
 
 [[languages.en.menu.main]]
     name = "Welcome"

@@ -37,10 +37,6 @@ Nachfolgend finden Sie einige ausgewählte Wandertouren in der Hirschberger Umge
 {{< tourlist type="wandern" >}}
 {{< clear >}}
 
-{{< surftip link="http://www.sgv-hirschberg.de/index.php?id=33" >}}
- Informationen zu den Wandermöglichkeiten Rund um Hirschberg
-{{< /surftip >}}
-
-{{< surftip link="http://www.marketing-warstein.de/" >}}
+{{< surftip link="https://www.stadtmarketing-warstein.de/" >}}
  Der Stadtmarketing Verband Warstein bietet bebilderte Broschüren über Wander- und Radwege in Hirschberg und Umgebung.
 {{< /surftip >}}

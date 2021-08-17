@@ -4,24 +4,17 @@
         "title": "Geocaching",
         "description": "Geocaching ist eine moderne Form der Schnitzeljagd und stellt eine Art elektronische Schatzsuche dar. Eine Route besteht aus verschiedenen Verstecken in denen sich sogenannte Caches befinden. Die Standorte der Caches werden anhand geographischer Koordination im Internet veröffentlicht und können dadurch mit Hilfe eines GPS-Empfängers gesucht werden. Ein Cache besteht in der Regel aus einem Wasserdichten Behälter, in dem sich ein Logbuch und diverse Tauschgegenstände befinden. Der Besucher trägt sich in das Logbuch ein und versteckt den Cache wieder an der gefundenen Stelle. Auch in Hirschberg und Umgebung sind mehrere Caches versteckt.",
         "cols": 12,
-        "links": [
-            {
-                "title": "Karte mit Caches",
-                "link": "http://www.geocaching.com/map/beta/default.aspx?lat=51.4534&lng=8.29458",
-                "icon": "fa-map",
-                "description": "Übersicht über die Caches in Hirschberg und Umgebung"
-            }
-        ]
+        "links": []
      },
      {
         "title": "Klettern",
         "description": "Im Mittelpunkt des Klettergebietes steht die Hillenbergwand mit Touren von bis zu 50 Klettermetern. Insgesamt sind im Klettergebiet bereits über 80 Routen eingerichtet mit Schwierigkeiten ab dem 3. Grad bis zu anspruchsvollen Kletterlinien im 9. Schwierigkeitsgrad. Mit der Wandhöhe und der damit verbundenen Möglichkeit von Mehrseillängentouren ist der Warsteiner Steinbruch eines der herausragenden Klettergebiete im Sauerland und sogar in ganz Nordrhein-Westfalen.",
-        "quote": "http://www.kletterarena.info/hillenberg.php",
+        "quote": "https://www.kletterarena.info/hillenberg.php",
         "cols": 12,
         "links": [
             {
                 "title": "Kletterarena Hillenberg (Warstein)",
-                "link": "http://www.kletterarena.info/hillenberg.php",
+                "link": "https://www.kletterarena.info/hillenberg.php",
                 "logo": "images/hillenberg2013.jpg"
             }
         ]
@@ -45,13 +38,13 @@
          "links": [
              {
                  "title": "Warsteiner Brauerei",
-                 "link": "http://www.warsteiner.de",
+                 "link": "https://www.warsteiner.de",
                  "logo": "images/branding.svg",
                  "description": "Informationen über die Warsteiner Brauerei inkl. Reservierungsanfragen und Details zur Brauereibesichtigung"
              },
              {
                  "title": "Home-Brew-Tec",
-                 "link": "http://www.home-brew-tec.de",
+                 "link": "https://www.home-brew-tec.de",
                  "logo": "images/logo_hbt.png",
                  "description": "Bierkenner-Diplom, Braukurse, Schaubrauen und Workshops zur Likörherstellung direkt in Hirschberg"
              }
@@ -83,11 +76,11 @@
         "links": [
            {
                "title": "Red Bowl Soest (Entfernung 24km):",
-               "link": "http://www.redbowl-soest.de/"
+               "link": "https://www.redbowl-soest.de/"
            },
            {
                "title": "Bowling bei Bert in Lippstadt (Entfernung 35km):",
-               "link": "http://www.bowling-bei-bert.de/"
+               "link": "https://www.bowling-bei-bert.de/"
            }
         ]
     }

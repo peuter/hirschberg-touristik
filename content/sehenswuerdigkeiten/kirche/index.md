@@ -41,10 +41,10 @@ Der Umbau geschah unter der Leitung von Herrn Architekten Heinrich Stiegemann au
 
 [Quelle: pastoralverbund-warstein.de]
 
-{{< surftip link="http://www.pastoralverbund-warstein.de/pv-warstein/index.php?ber_id=3219&inh_id=10617" >}}
+{{< surftip link="https://katholisch-in-warstein.de/pastoraler-raum/hirschberg/" >}}
  Seite des Pastoralverbunds Warstein
 {{< /surftip >}}
 
-{{< surftip link="http://de.wikipedia.org/wiki/St._Christophorus_Hirschberg_%28Warstein%29" >}}
+{{< surftip link="https://de.wikipedia.org/wiki/St._Christophorus_(Hirschberg)" >}}
  Wikipedia-Artikel über die Pfarrkirche
 {{< /surftip >}}
