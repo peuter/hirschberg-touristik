@@ -29,3 +29,9 @@ erklimmen möchten, eine malerische Umgebung ist Ihnen in beiden Fällen garanti
 
 {{< tourlist type="rad" >}}
 {{< clear >}}
+
+### E-Bike Verleih
+
+Das Landhotel Cramer verleiht E-Bikes, je nach Verfügbarkeit, auch an Tagesausflügler, Gäste anderer Unterkünfte und Einheimische.
+
+https://landhotel-cramer.de/e-bike-verleih/
