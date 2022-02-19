@@ -1900,6 +1900,15 @@ figcaption p {
 	background: #829bc9;
 }
 
+.icon.circle.fa-instagram {
+        background: #F56040;
+        color: #fff;
+}
+
+.icon.circle.fa-instagram:hover {
+        background: #F77737;
+}
+
 .icon.circle.fa-rss {
 	background: #db6b67;
 	color: #fff;
