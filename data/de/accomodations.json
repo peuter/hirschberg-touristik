@@ -42,17 +42,6 @@
     "image_prefix": "images/birkenhof-logo"
   }],
   "flats": [{
-    "id": "4",
-    "type": "3",
-    "contact_id": "4",
-    "title": "Ferienwohnung Dieter B\u00f6ckeler",
-    "location": "Im Naturpark \"Arnsberger Wald\" am Waldrand im Bachetal im staatl. anerkannten Erholungsort.",
-    "character": "Zwei gem\u00fctliche Wohnungen in einem liebevoll restaurierten Bauernhaus f\u00fcr jeweils 4-6 Personen. 90 qm gro\u00df mit 3 Doppelschlafzimmern, sep. K\u00fcche, Wohn-Esszimmer, Sat-TV, DU\/WC.",
-    "rooms": "",
-    "specials": "Gro\u00dfe Liege- und Spielwiese mit Sitz- und Grillm\u00f6glichkeit. Idealer Ausgangsort f\u00fcr Wanderungen und Radtouren. Reitanlage 5 Min., Bilsteinh\u00f6hle-Wildpark 3 km, M\u00f6hnesee 13 km, Besichtigung der Warsteiner Brauerei. Bettw\u00e4sche, Hand- und K\u00fcchent\u00fccher inklusive.",
-    "price_info": "Doppelzimmer: 12,50 \u20ac pro Person\/Nacht (15 \u20ac bei weniger als 3 \u00dcbernachtungen)",
-    "image_prefix": "images/boeckeler"
-  }, {
     "id": "8",
     "type": "3",
     "contact_id": "8",
@@ -163,21 +152,6 @@
       "fax": "02902-59555",
       "email_address": "info@hirsch-hirschberg.de",
       "web_address": "https:\/\/www.zum-hirsch-hirschberg.de\/"
-    },
-    "4": {
-      "company_name": "Ferienwohnung Dieter B\u00f6ckeler",
-      "contact_salutation": "Herr",
-      "contact_firstname": "Dieter",
-      "contact_lastname": "B\u00f6ckeler",
-      "street": "Bache",
-      "house_number": "10",
-      "zip": "59581",
-      "city": "Warstein-Hirschberg",
-      "phone": "02902-4412",
-      "mobile": "",
-      "fax": null,
-      "email_address": "dieter.boeckeler@t-online.de",
-      "web_address": null
     },
     "5": {
       "company_name": "Ferienwohnung Herbert und Brunhild Dange",
