@@ -38,7 +38,7 @@ Nachfolgend finden Sie einige ausgewählte Wandertouren in der Hirschberger Umge
 {{< clear >}}
 
 {{< surftip link="https://www.ich-geh-wandern.de/gps-wanderwege/hirschberg-warstein" >}}
- Liste mit Wanderwergen rund um Hirschberg. Enthält auch die neuen, offiziell ausgezeichneten Wege des SGV.
+ Liste mit Wanderwegen rund um Hirschberg. Enthält auch die neuen, offiziell ausgezeichneten Wege des SGV.
 {{< /surftip >}}
 
 {{< surftip link="https://www.stadtmarketing-warstein.de/" >}}
