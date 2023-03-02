@@ -42,17 +42,6 @@
     "image_prefix": "images/birkenhof-logo"
   }],
   "flats": [{
-    "id": "8",
-    "type": "3",
-    "contact_id": "8",
-    "title": "Ferienwohnung Rasch",
-    "location": "Am S\u00fcd-Westhang von Hirschberg gelegen. Herrliche Aussicht \u00fcber das Tal der Bache auf den \"Arnsberger Wald\".",
-    "character": "Gem\u00fctlich eingerichtete Ferienwohnung f\u00fcr 4-6 Personen.  67 qm gro\u00df komplett eingerichtet mit K\u00fcche, 1 Schlafzimmer, 1 Wohn-Schlafzimmer, Sat-TV, Bad\/DU\/WC. Zus\u00e4tzliches Kinderbett m\u00f6glich.",
-    "rooms": "",
-    "specials": "Terrasse, Liegewiese, Parkplatz am Haus. Kleine aktive Landwirtschaft mit Tieren. Viel Platz und Spielm\u00f6glichkeiten f\u00fcr Kinder (Fu\u00dfballkicker, Tischtennisplatte, Kettcar u.s.w.)",
-    "price_info": "175 - 294 \u20ac pro Woche",
-    "image_prefix": "images/rasch"
-  }, {
     "id": "9",
     "type": "3",
     "contact_id": "9",
