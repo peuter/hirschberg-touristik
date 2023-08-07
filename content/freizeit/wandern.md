@@ -31,15 +31,26 @@ Platz bietet den idealen Ausgangspunkt für beides.
 
 ### Sonstige Wanderwege
 
-Ausgehend von den verschiedenen Wanderparkplätzen rund um Hirschberg finden Sie ingesamt 192 km 
-vom SGV gekennzeichnete Wanderwege.
-Nachfolgend finden Sie einige ausgewählte Wandertouren in der Hirschberger Umgebung.
-{{< tourlist type="wandern" >}}
-{{< clear >}}
+Ausgehend von den verschiedenen Wanderparkplätzen rund um Hirschberg finden Sie ingesamt 7 
+vom SGV gekennzeichnete Wanderwege. Die Wege wurden im Jahr 2022 neu entwickelt und tragen die Namen
+H1 - H7, wobai das "H" für Hirschberg steht. Diese Änderung hatte mehrere Gründe:
+    
+* es sollte erkennbar sein, dass die gekennzeichneten Wanderwege zu unserem Ort Hirschberg gehören und die Wege abgrenzen von denen der Nachbarorte
+* wir wollten das Wegenetz straffen und Überschneidungen der Wege vermeiden
+* einige der bisherigen Wanderwege waren infolge der Waldschäden und Abholzungen nicht mehr begehbar
+
+Die neuen H-Wege sind bis auf einen bereits gekennzeichnet; der Letzte folgt in Kürze.
+Allerdings gibt es derzeit noch keine Wanderkarte, die diese H-Wege enthält. Und auch die Informationstafeln an den Wanderparkplätzen sind noch nicht aktualisiert. Beides wird aufgrund der Mitwirkung Dritter voraussichtlich noch dauern.
+Bis dahin sind die H-Wege als gpx-Datei im GPS Wanderatlas für den Import nach Komoot verfügbar (Link „ich-geh-wandern.de)“.
+
+ [Flyer Wanderkarte H1-H7](../../Flyer_Wanderkarte_H1-H7_SGV.pdf)
 
 {{< surftip link="https://www.ich-geh-wandern.de/gps-wanderwege/hirschberg-warstein" >}}
- Liste mit Wanderwegen rund um Hirschberg. Enthält auch die neuen, offiziell ausgezeichneten Wege des SGV.
+ Liste mit Wanderwegen rund um Hirschberg. Enthält auch die neuen, offiziell ausgezeichneten Wege H1-H7 des SGV.
 {{< /surftip >}}
+
+{{< tourlist type="wandern" >}}
+{{< clear >}}
 
 {{< surftip link="https://www.stadtmarketing-warstein.de/" >}}
  Der Stadtmarketing Verband Warstein bietet bebilderte Broschüren über Wander- und Radwege in Hirschberg und Umgebung.
