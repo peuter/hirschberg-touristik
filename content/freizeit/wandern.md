@@ -33,7 +33,7 @@ Platz bietet den idealen Ausgangspunkt für beides.
 
 Ausgehend von den verschiedenen Wanderparkplätzen rund um Hirschberg finden Sie ingesamt 7 
 vom SGV gekennzeichnete Wanderwege. Die Wege wurden im Jahr 2022 neu entwickelt und tragen die Namen
-H1 - H7, wobai das "H" für Hirschberg steht. Diese Änderung hatte mehrere Gründe:
+H1 - H7, wobei das "H" für Hirschberg steht. Diese Änderung hatte mehrere Gründe:
     
 * es sollte erkennbar sein, dass die gekennzeichneten Wanderwege zu unserem Ort Hirschberg gehören und die Wege abgrenzen von denen der Nachbarorte
 * wir wollten das Wegenetz straffen und Überschneidungen der Wege vermeiden
