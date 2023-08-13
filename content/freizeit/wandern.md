@@ -41,16 +41,13 @@ H1 - H7, wobei das "H" für Hirschberg steht. Diese Änderung hatte mehrere Grü
 
 Die neuen H-Wege sind bis auf einen bereits gekennzeichnet; der Letzte folgt in Kürze.
 Allerdings gibt es derzeit noch keine Wanderkarte, die diese H-Wege enthält. Und auch die Informationstafeln an den Wanderparkplätzen sind noch nicht aktualisiert. Beides wird aufgrund der Mitwirkung Dritter voraussichtlich noch dauern.
-Bis dahin sind die H-Wege als gpx-Datei im GPS Wanderatlas für den Import nach Komoot verfügbar (Link „ich-geh-wandern.de)“.
+Bis dahin sind die H-Wege als gpx-Datei im [GPS Wanderatlas](https://www.ich-geh-wandern.de/gps-wanderwege/hirschberg-warstein) für den Import nach Komoot verfügbar.
 
  [Flyer Wanderkarte H1-H7](../../Flyer_Wanderkarte_H1-H7_SGV.pdf)
 
 {{< surftip link="https://www.ich-geh-wandern.de/gps-wanderwege/hirschberg-warstein" >}}
  Liste mit Wanderwegen rund um Hirschberg. Enthält auch die neuen, offiziell ausgezeichneten Wege H1-H7 des SGV.
 {{< /surftip >}}
-
-{{< tourlist type="wandern" >}}
-{{< clear >}}
 
 {{< surftip link="https://www.stadtmarketing-warstein.de/" >}}
  Der Stadtmarketing Verband Warstein bietet bebilderte Broschüren über Wander- und Radwege in Hirschberg und Umgebung.
