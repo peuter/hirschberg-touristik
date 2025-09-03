@@ -32,14 +32,6 @@
     "specials": "Sonnige Terrasse mit herrlichem Panoramablick. Kindererm\u00e4\u00dfigung: bis 4 Jahre = 90 %, bis 8 Jahre = 60 %, G\u00fcltig im DZ bei 1 Vollzahler,  G\u00fcltig im 2. Zimmer",
     "price_info": "Aktuelle Preise finden Sie auf der Homepage www.hirsch-hirschberg.de",
     "image_prefix": "images/zum_hirsch"
-  }, {
-    "id": "21",
-    "type": "1",
-    "contact_id": "17",
-    "title": "Gasthof-Pension Birkenhof",
-    "location": "Unsere familengeführte Pension liegt am Rande des Arnsberger Waldes. Als Ausgangspunkt für Wanderungen, Motorradtouren oder einfach zum Erholen. Genießen Sie unsere vielseitige frische Küche.",
-    "character": "Im Jahr 1996 haben wir den Birkenhof übernommen und führen ihn seit dieser Zeit als reines Familienunternehmen. Wir wollen ein bisschen Heimat für jedermann. Am Rande des Arnsberger Wald gelegen bietet sich hier die Möglichkeit zu entspannen. Man kann hier wunderbar wandern ob nur ein kleiner Spaziergang oder eine Tageswanderung alles ist möglich, da wir direkt an der Sauerländer Waldroute liegen. Auch ideal für Biker da unser Haus als Ausgangspunkt für viele Touren geeignet ist.",
-    "image_prefix": "images/birkenhof-logo"
   }],
   "flats": [{
     "id": "9",
@@ -321,21 +313,6 @@
       "fax": "02902-774341",
       "email_address": "phoenix-hoff@t-online.de",
       "web_address": null
-    },
-    "17": {
-      "company_name": "Gasthof-Pension Birkenhoff",
-      "contact_salutation": "Familie",
-      "contact_firstname": "",
-      "contact_lastname": "Toupal",
-      "street": "Bermecke",
-      "house_number": "1",
-      "zip": "59581",
-      "city": "Warstein-Hirschberg",
-      "phone": "02902-97780",
-      "mobile": null,
-      "fax": "02902-51861",
-      "email_address": "kontakt@birkenhof-warstein.de",
-      "web_address": "http://www.birkenhof-warstein.de/"
     }
   }
 }
