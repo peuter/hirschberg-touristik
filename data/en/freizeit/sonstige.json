@@ -9,12 +9,6 @@
                     "link": "http://www.warsteiner.de",
                     "logo": "images/branding.svg",
                     "description": "Information about the Warsteiner Brewery incl. reservations and details on the visiting the brewery"
-                },
-                {
-                    "title": "Home-Brew-Tec",
-                    "link": "http://www.home-brew-tec.de",
-                    "logo": "images/logo_hbt.png",
-                    "description": "Brewery courses and workshops about the production of liqueurs directly in Hirschberg"
                 }
             ]
         }
