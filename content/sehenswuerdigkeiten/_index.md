@@ -20,13 +20,13 @@ Auf dieser Seite finden Sie einige Hinweise und Tipps zur Freizeitgestaltung wä
     {{< closediv >}}
 {{< closediv >}}
 
-Wer unseren Ort wirklich kennen lernen möchte, dem empfehlen wir eine Führung durch den Ort mit Dieter Bräutigam. Unterhaltsam und informativ zeigt Dieter Bräutigam interessierten Besucherinnen und Besuchern seinen Heimatort: Das Rathaus der früher einmal selbstständigen Stadt Hirschberg, die Kirche, das Pfarrhaus, das Hirschberger Tor, die Kapelle an der Schule usw.
+Wer unseren Ort wirklich kennen lernen möchte, dem empfehlen wir eine Führung durch den Ort mit Doris Baronowsky. Unterhaltsam und informativ zeigt Doris Baronowsky interessierten Besucherinnen und Besuchern seinen Heimatort: Das Rathaus der früher einmal selbstständigen Stadt Hirschberg, die Kirche, das Pfarrhaus, das Hirschberger Tor, die Kapelle an der Schule usw.
 
 Auch die Führung größerer Gruppen ist nach Absprache möglich, da in diesem Falle weitere Ortsführer zur Unterstützung dazu kommen.{{< br >}}
-Die Führungen werden im Auftrag des Vereinsrings Hirschberg e.V. durchgeführt. Günter Risse hat diese Führungen 30 Jahre lang durchgeführt und den Staffelstab im Jahre 2013 an Dieter Bräutigam übergeben.
+Die Führungen werden im Auftrag des Vereinsrings Hirschberg e.V. durchgeführt. Günter Risse hat diese Führungen 30 Jahre lang durchgeführt und den Staffelstab im Jahre 2013 an Dieter Bräutigam übergeben. Im Jahre 2025 hat Doris Baronowsky die Führungen übernommen.
 
-Dieter Bräutigam{{< br >}}
-Burgstr. 31{{< br >}}
+Doris Baronowsky{{< br >}}
+Clemens-August-Str. 22{{< br >}}
 59581 Warstein-Hirschberg{{< br >}}
-Telefon: 02902 1253{{< br >}}
-dbraeutigam48@gmail.com{{< br >}}
+Telefon: 0171 5125170{{< br >}}
+dorisbaronowsky@t-online.de{{< br >}}
