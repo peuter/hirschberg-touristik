@@ -21,17 +21,6 @@
     "specials": "Idealer Ausgangspunkt f\u00fcr Wanderungen durch den Naturpark \"Arnsberger Wald\" und sonstige Ausfl\u00fcge.",
     "price_info": "Doppelzimmer: 45 \u20ac, Einzelzimmer: 50 \u20ac. Die Preise gelten für die Übernachtung mit Frühstück pro Person und Tag.",
     "image_prefix": "images/sauerlaender_hof"
-  }, {
-    "id": "3",
-    "type": "1",
-    "contact_id": "3",
-    "title": "Gasthof-Pension \"Zum Hirsch\"",
-    "location": "Unser Haus, mit famili\u00e4rer und gem\u00fctlicher Atmosph\u00e4re, liegt absolut ruhig und doch nahe am Ortskern. Von der begr\u00fcnten Terrasse aus genie\u00dfen Sie im Sommer einen herrlichen Blick auf die umliegende, weite Landschaft.",
-    "character": "Famili\u00e4r gef\u00fchrter Gasthof mit rustikaler Schankwirtschaft. Die gem\u00fctlichen Gastr\u00e4ume vermitteln Behaglichkeit und angenehme Atmosph\u00e4re. Hier werden gutb\u00fcrgerliche Speisen und gepflegte Getr\u00e4nke serviert. Aufenthaltsraum mit Sat-TV und Balkon. Tagungsraum f\u00fcr 45 Personen",
-    "rooms": "Komfortable G\u00e4stezimmer mit DU\/WC und Sat-TV. Kinderbett m\u00f6glich",
-    "specials": "Sonnige Terrasse mit herrlichem Panoramablick. Kindererm\u00e4\u00dfigung: bis 4 Jahre = 90 %, bis 8 Jahre = 60 %, G\u00fcltig im DZ bei 1 Vollzahler,  G\u00fcltig im 2. Zimmer",
-    "price_info": "Aktuelle Preise finden Sie auf der Homepage www.hirsch-hirschberg.de",
-    "image_prefix": "images/zum_hirsch"
   }],
   "flats": [{
     "id": "9",
@@ -118,21 +107,6 @@
       "fax": "",
       "email_address": "sauerlaender-hof@web.de",
       "web_address": ""
-    },
-    "3": {
-      "company_name": "Gasthof-Pension \"Zum Hirsch\"",
-      "contact_salutation": "Frau",
-      "contact_firstname": "Karin",
-      "contact_lastname": "Krewitt",
-      "street": "Stadtgraben",
-      "house_number": "23",
-      "zip": "59581",
-      "city": "Warstein-Hirschberg",
-      "phone": "02902-3645",
-      "mobile": "",
-      "fax": "02902-59555",
-      "email_address": "info@hirsch-hirschberg.de",
-      "web_address": "https:\/\/www.zum-hirsch-hirschberg.de\/"
     },
     "5": {
       "company_name": "Ferienwohnung Herbert und Brunhild Dange",
